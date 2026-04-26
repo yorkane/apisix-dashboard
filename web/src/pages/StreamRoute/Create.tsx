@@ -4,7 +4,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { history, useParams } from 'umi';
 
 import UpstreamForm from '@/components/Upstream/UpstreamForm';
-import { fetchList as fetchUpstreamList } from '@/components/Upstream/service';
+import { fetchUpstreamList } from '@/components/Upstream/service';
 import { create, update, fetchItem } from './service';
 
 const StreamRouteCreate: React.FC = () => {
