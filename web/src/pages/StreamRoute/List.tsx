@@ -16,7 +16,7 @@ const StreamRouteList: React.FC = () => {
   const handleRemove = async (id: string) => {
     try {
       await remove(id);
-      notification.success({ message: 'Remove stream route successfully' });
+      notification.success({ message: intl.formatMessage({ id: 'page.streamRoute.delete.success' }) });
       actionRef.current?.reload();
     } catch (error) {
       // handled by global errorHandler
@@ -25,34 +25,34 @@ const StreamRouteList: React.FC = () => {
 
   const columns: ProColumns<StreamRouteModule.Entity>[] = [
     {
-      title: 'Server Addr',
+      title: intl.formatMessage({ id: 'page.streamRoute.serverAddr' }),
       dataIndex: 'server_addr',
     },
     {
-      title: 'Server Port',
+      title: intl.formatMessage({ id: 'page.streamRoute.serverPort' }),
       dataIndex: 'server_port',
     },
     {
-      title: 'SNI',
+      title: intl.formatMessage({ id: 'page.streamRoute.sni' }),
       dataIndex: 'sni',
     },
     {
-      title: 'Remote Addr',
+      title: intl.formatMessage({ id: 'page.streamRoute.remoteAddr' }),
       dataIndex: 'remote_addr',
     },
     {
-      title: 'Description',
+      title: intl.formatMessage({ id: 'page.streamRoute.desc' }),
       dataIndex: 'desc',
       hideInSearch: true,
     },
     {
-      title: 'Update Time',
+      title: intl.formatMessage({ id: 'component.global.updateTime' }),
       dataIndex: 'update_time',
       hideInSearch: true,
       render: (text) => timestampToLocaleString(text as number),
     },
     {
-      title: 'Action',
+      title: intl.formatMessage({ id: 'component.global.operation' }),
       valueType: 'option',
       render: (_, record) => (
         <>
@@ -61,14 +61,14 @@ const StreamRouteList: React.FC = () => {
             onClick={() => history.push(`/stream_routes/${record.id}/edit`)}
             style={{ marginRight: 10 }}
           >
-            Edit
+            {intl.formatMessage({ id: 'component.global.edit' })}
           </Button>
           <Popconfirm
-            title="Are you sure to delete this route?"
+            title={intl.formatMessage({ id: 'page.streamRoute.delete.confirm' })}
             onConfirm={() => handleRemove(record.id!)}
           >
             <Button type="primary" danger>
-              Delete
+              {intl.formatMessage({ id: 'component.global.delete' })}
             </Button>
           </Popconfirm>
         </>
@@ -77,7 +77,7 @@ const StreamRouteList: React.FC = () => {
   ];
 
   return (
-    <PageContainer title="Stream Route">
+    <PageContainer title={intl.formatMessage({ id: 'menu.stream_routes' })}>
       <ProTable<StreamRouteModule.Entity>
         actionRef={actionRef}
         rowKey="id"
@@ -89,7 +89,7 @@ const StreamRouteList: React.FC = () => {
             key="create"
             onClick={() => history.push('/stream_routes/create')}
           >
-            <PlusOutlined /> Create
+            <PlusOutlined /> {intl.formatMessage({ id: 'component.global.create' })}
           </Button>,
         ]}
       />

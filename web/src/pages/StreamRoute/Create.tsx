@@ -1,7 +1,7 @@
 import { PageContainer } from '@ant-design/pro-layout';
 import { Card, Form, Input, Button, InputNumber, notification } from 'antd';
 import React, { useEffect, useState, useRef } from 'react';
-import { history, useParams } from 'umi';
+import { history, useParams, useIntl } from 'umi';
 
 import UpstreamForm from '@/components/Upstream/UpstreamForm';
 import { fetchUpstreamList } from '@/components/Upstream/service';
@@ -12,6 +12,7 @@ const StreamRouteCreate: React.FC = () => {
   const [upstreamForm] = Form.useForm();
   const upstreamRef = useRef<any>();
   const { id } = useParams<{ id: string }>();
+  const intl = useIntl();
   const isEdit = !!id;
   const [upstreamList, setUpstreamList] = useState<any[]>([]);
 
@@ -63,10 +64,10 @@ const StreamRouteCreate: React.FC = () => {
 
       if (isEdit) {
         await update(id, payload);
-        notification.success({ message: 'Update stream route successfully' });
+        notification.success({ message: intl.formatMessage({ id: 'page.streamRoute.update.success' }) });
       } else {
         await create(payload);
-        notification.success({ message: 'Create stream route successfully' });
+        notification.success({ message: intl.formatMessage({ id: 'page.streamRoute.create.success' }) });
       }
       history.push('/stream_routes/list');
     } catch (e) {
@@ -75,28 +76,28 @@ const StreamRouteCreate: React.FC = () => {
   };
 
   return (
-    <PageContainer title={isEdit ? 'Edit Stream Route' : 'Create Stream Route'}>
-      <Card title="Base Information">
+    <PageContainer title={isEdit ? intl.formatMessage({ id: 'page.streamRoute.edit' }) : intl.formatMessage({ id: 'page.streamRoute.create' })}>
+      <Card title={intl.formatMessage({ id: 'page.streamRoute.baseInfo' })}>
         <Form form={form} layout="vertical">
-          <Form.Item label="Description" name="desc">
+          <Form.Item label={intl.formatMessage({ id: 'page.streamRoute.desc' })} name="desc">
             <Input />
           </Form.Item>
-          <Form.Item label="Server Addr" name="server_addr">
+          <Form.Item label={intl.formatMessage({ id: 'page.streamRoute.serverAddr' })} name="server_addr">
             <Input placeholder="e.g. 127.0.0.1" />
           </Form.Item>
-          <Form.Item label="Server Port" name="server_port">
+          <Form.Item label={intl.formatMessage({ id: 'page.streamRoute.serverPort' })} name="server_port">
             <InputNumber style={{ width: '100%' }} />
           </Form.Item>
-          <Form.Item label="SNI" name="sni">
+          <Form.Item label={intl.formatMessage({ id: 'page.streamRoute.sni' })} name="sni">
             <Input />
           </Form.Item>
-          <Form.Item label="Remote Addr" name="remote_addr">
+          <Form.Item label={intl.formatMessage({ id: 'page.streamRoute.remoteAddr' })} name="remote_addr">
             <Input placeholder="e.g. 192.168.1.101" />
           </Form.Item>
         </Form>
       </Card>
       
-      <Card title="Upstream" style={{ marginTop: 16 }}>
+      <Card title={intl.formatMessage({ id: 'page.streamRoute.upstream' })} style={{ marginTop: 16 }}>
         <UpstreamForm
           ref={upstreamRef}
           form={upstreamForm}
@@ -108,10 +109,10 @@ const StreamRouteCreate: React.FC = () => {
 
       <Card style={{ marginTop: 16 }}>
         <Button type="primary" onClick={onSubmit}>
-          Submit
+          {intl.formatMessage({ id: 'component.global.submit' })}
         </Button>
         <Button style={{ marginLeft: 8 }} onClick={() => history.push('/stream_routes/list')}>
-          Cancel
+          {intl.formatMessage({ id: 'component.global.cancel' })}
         </Button>
       </Card>
     </PageContainer>

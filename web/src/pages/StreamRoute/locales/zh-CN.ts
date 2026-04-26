@@ -1,0 +1,17 @@
+export default {
+  'page.streamRoute.list': '四层路由列表',
+  'page.streamRoute.create': '创建四层路由',
+  'page.streamRoute.edit': '编辑四层路由',
+  'page.streamRoute.description': '四层路由',
+  'page.streamRoute.serverAddr': '监听地址 (Server Addr)',
+  'page.streamRoute.serverPort': '监听端口 (Server Port)',
+  'page.streamRoute.sni': 'SNI',
+  'page.streamRoute.remoteAddr': '客户端地址 (Remote Addr)',
+  'page.streamRoute.desc': '描述',
+  'page.streamRoute.baseInfo': '基础信息',
+  'page.streamRoute.upstream': '上游 (Upstream)',
+  'page.streamRoute.delete.confirm': '确定要删除该路由吗？',
+  'page.streamRoute.create.success': '创建四层路由成功',
+  'page.streamRoute.update.success': '更新四层路由成功',
+  'page.streamRoute.delete.success': '删除四层路由成功',
+};

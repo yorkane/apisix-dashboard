@@ -1,0 +1,17 @@
+export default {
+  'page.streamRoute.list': 'Stream Route List',
+  'page.streamRoute.create': 'Create Stream Route',
+  'page.streamRoute.edit': 'Edit Stream Route',
+  'page.streamRoute.description': 'Stream Route',
+  'page.streamRoute.serverAddr': 'Server Addr',
+  'page.streamRoute.serverPort': 'Server Port',
+  'page.streamRoute.sni': 'SNI',
+  'page.streamRoute.remoteAddr': 'Remote Addr',
+  'page.streamRoute.desc': 'Description',
+  'page.streamRoute.baseInfo': 'Base Information',
+  'page.streamRoute.upstream': 'Upstream',
+  'page.streamRoute.delete.confirm': 'Are you sure to delete this route?',
+  'page.streamRoute.create.success': 'Create stream route successfully',
+  'page.streamRoute.update.success': 'Update stream route successfully',
+  'page.streamRoute.delete.success': 'Remove stream route successfully',
+};
