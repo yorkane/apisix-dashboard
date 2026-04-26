@@ -40,6 +40,11 @@ export const getMenuData = (): MenuDataItem[] => {
       icon: <IconFont name="iconroute" />,
     },
     {
+      name: 'stream_routes',
+      path: '/stream_routes/list',
+      icon: <IconFont name="iconroute" />,
+    },
+    {
       name: 'upstream',
       path: '/upstream/list',
       icon: <IconFont name="iconserver" />,
