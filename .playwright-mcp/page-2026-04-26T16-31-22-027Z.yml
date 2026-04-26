@@ -1,0 +1,522 @@
+- generic [ref=e2]:
+  - table [ref=e3]:
+    - rowgroup [ref=e4]:
+      - row [ref=e5]:
+        - cell [ref=e6]:
+          - img [ref=e7]
+        - cell [ref=e8]:
+          - img [ref=e9]
+      - row [ref=e10]:
+        - cell [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: /index.shtml
+            - img [ref=e13]
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /jiyu/index.shtml
+            - img [ref=e15]
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /junshi/index.shtml
+            - img [ref=e17]
+          - link [ref=e18] [cursor=pointer]:
+            - /url: /tupian/index.shtml
+            - img [ref=e19]
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /zongheng/index.shtml
+            - img [ref=e21]
+          - link [ref=e22] [cursor=pointer]:
+            - /url: /junqing/index.shtml
+            - img [ref=e23]
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /shijiao/index.shtml
+            - img [ref=e25]
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /junli/index.shtml
+            - img [ref=e27]
+  - table [ref=e28]:
+    - rowgroup [ref=e29]:
+      - row "进入军事论坛" [ref=e30]:
+        - cell [ref=e31]:
+          - img [ref=e32]
+        - cell "进入军事论坛" [ref=e33]:
+          - link "进入军事论坛" [ref=e34] [cursor=pointer]:
+            - /url: http://jczsbbs1.sina.com.cn/cgi-bin/thread.cgi?gid=5&fid=12
+        - cell [ref=e35]:
+          - img [ref=e36]
+  - table [ref=e37]:
+    - rowgroup [ref=e38]:
+      - row [ref=e39]:
+        - cell [ref=e40]:
+          - table [ref=e41]:
+            - rowgroup [ref=e42]:
+              - row [ref=e43]:
+                - cell [ref=e44]:
+                  - img [ref=e45]
+              - row [ref=e46]:
+                - cell [ref=e47]:
+                  - img [ref=e48]
+        - cell [ref=e49]
+        - cell [ref=e50]:
+          - img [ref=e51]
+        - cell [ref=e52]
+        - cell [ref=e53]:
+          - img [ref=e54]
+      - row [ref=e55]:
+        - cell [ref=e56]:
+          - table [ref=e57]:
+            - rowgroup [ref=e58]:
+              - row "综合新闻" [ref=e59]:
+                - cell [ref=e60]:
+                  - img [ref=e61]
+                - cell "综合新闻" [ref=e62]
+                - cell [ref=e63]:
+                  - img [ref=e64]
+                - cell [ref=e65]:
+                  - link [ref=e66] [cursor=pointer]:
+                    - /url: /zonghe/611.html
+                    - img [ref=e67]
+              - row [ref=e68]:
+                - cell [ref=e69]
+          - table [ref=e70]:
+            - rowgroup [ref=e71]:
+              - row [ref=e72]:
+                - cell [ref=e73]:
+                  - list [ref=e74]:
+                    - listitem [ref=e75]:
+                      - link "我给鬼子疗伤(图)" [ref=e76] [cursor=pointer]:
+                        - /url: /2005-08-25/0608315519.html
+                      - text: (8月25日 06:08)
+                    - listitem [ref=e77]:
+                      - link "见证抗战(图)" [ref=e78] [cursor=pointer]:
+                        - /url: /2005-08-25/0608315520.html
+                      - text: (8月25日 06:08)
+                    - listitem [ref=e79]:
+                      - link "华中敌后军民反“扫荡”反“清乡”(图)" [ref=e80] [cursor=pointer]:
+                        - /url: /2005-08-25/0608315521.html
+                      - text: (8月25日 06:08)
+                    - listitem [ref=e81]:
+                      - link "梅津美治郎：残杀东北军民的刽子手" [ref=e82] [cursor=pointer]:
+                        - /url: /2005-08-25/0608315522.html
+                      - text: (8月25日 06:08)
+                    - listitem [ref=e83]:
+                      - link "魏大光：抗日战场屡建战功(图)" [ref=e84] [cursor=pointer]:
+                        - /url: /2005-08-25/0608315523.html
+                      - text: (8月25日 06:08)
+                    - listitem [ref=e85]:
+                      - link "鲜为人知的“东方奥斯维辛集中营”" [ref=e86] [cursor=pointer]:
+                        - /url: /2005-08-25/0608315524.html
+                      - text: (8月25日 06:08)
+                    - listitem [ref=e87]:
+                      - link "军演挟雷霆 保障创一流" [ref=e88] [cursor=pointer]:
+                        - /url: /2005-08-25/0603315512.html
+                      - text: (8月25日 06:03)
+                    - listitem [ref=e89]:
+                      - link "大队长陈万顺防化训练保障探新路" [ref=e90] [cursor=pointer]:
+                        - /url: /2005-08-25/0603315513.html
+                      - text: (8月25日 06:03)
+                    - listitem [ref=e91]:
+                      - link "中俄联合军事演习实兵交战两栖登陆现场(组图)" [ref=e92] [cursor=pointer]:
+                        - /url: /2005-08-25/0603315514.html
+                      - text: (8月25日 06:03)
+                    - listitem [ref=e93]:
+                      - link "治愈训练伤8000余例" [ref=e94] [cursor=pointer]:
+                        - /url: /2005-08-25/0603315515.html
+                      - text: (8月25日 06:03)
+                    - listitem [ref=e95]:
+                      - link "某分部野战兵站与部队支援保障成功对接" [ref=e96] [cursor=pointer]:
+                        - /url: /2005-08-25/0603315516.html
+                      - text: (8月25日 06:03)
+                    - listitem [ref=e97]:
+                      - link "我军战创伤研究再上新台阶" [ref=e98] [cursor=pointer]:
+                        - /url: /2005-08-25/0603315517.html
+                      - text: (8月25日 06:03)
+                    - listitem [ref=e99]:
+                      - link "把牢安全行车“方向盘”" [ref=e100] [cursor=pointer]:
+                        - /url: /2005-08-25/0603315518.html
+                      - text: (8月25日 06:03)
+                    - listitem [ref=e101]:
+                      - link "爱心大使" [ref=e102] [cursor=pointer]:
+                        - /url: /2005-08-25/0602315552.html
+                      - text: (8月25日 06:02)
+                    - listitem [ref=e103]:
+                      - link "神安者寿" [ref=e104] [cursor=pointer]:
+                        - /url: /2005-08-25/0602315553.html
+                      - text: (8月25日 06:02)
+                    - listitem [ref=e105]:
+                      - link "北京军区服务处培养官兵节约意识" [ref=e106] [cursor=pointer]:
+                        - /url: /2005-08-25/0602315554.html
+                      - text: (8月25日 06:02)
+                    - listitem [ref=e107]:
+                      - link "七十五年的呼唤" [ref=e108] [cursor=pointer]:
+                        - /url: /2005-08-25/0602315555.html
+                      - text: (8月25日 06:02)
+                    - listitem [ref=e109]:
+                      - link "陪同粟裕将军视察阵地(图)" [ref=e110] [cursor=pointer]:
+                        - /url: /2005-08-25/0602315556.html
+                      - text: (8月25日 06:02)
+                    - listitem [ref=e111]:
+                      - link "总参某干休所开展优质服务" [ref=e112] [cursor=pointer]:
+                        - /url: /2005-08-25/0602315557.html
+                      - text: (8月25日 06:02)
+                    - listitem [ref=e113]:
+                      - link "沈阳军区老战士书画会为部队建设献余热" [ref=e114] [cursor=pointer]:
+                        - /url: /2005-08-25/0602315558.html
+                      - text: (8月25日 06:02)
+                    - listitem [ref=e115]:
+                      - link "信息窗" [ref=e116] [cursor=pointer]:
+                        - /url: /2005-08-25/0602315559.html
+                      - text: (8月25日 06:02)
+                    - listitem [ref=e117]:
+                      - link "浠水县军休所关爱送到心坎上" [ref=e118] [cursor=pointer]:
+                        - /url: /2005-08-25/0602315560.html
+                      - text: (8月25日 06:02)
+                    - listitem [ref=e119]:
+                      - link "晚霞映丹青(图)" [ref=e120] [cursor=pointer]:
+                        - /url: /2005-08-25/0602315561.html
+                      - text: (8月25日 06:02)
+                    - listitem [ref=e121]:
+                      - link "党员干部要做勤奋学习的模范" [ref=e122] [cursor=pointer]:
+                        - /url: /2005-08-25/0556315547.html
+                      - text: (8月25日 05:56)
+                    - listitem [ref=e123]:
+                      - link "坚持不懈地在抓基层打基础上下功夫" [ref=e124] [cursor=pointer]:
+                        - /url: /2005-08-25/0556315548.html
+                      - text: (8月25日 05:56)
+                    - listitem [ref=e125]:
+                      - link "着力推进思想政治建设创新发展" [ref=e126] [cursor=pointer]:
+                        - /url: /2005-08-25/0556315549.html
+                      - text: (8月25日 05:56)
+                    - listitem [ref=e127]:
+                      - link "社会主义和谐社会与依法治国" [ref=e128] [cursor=pointer]:
+                        - /url: /2005-08-25/0556315550.html
+                      - text: (8月25日 05:56)
+                    - listitem [ref=e129]:
+                      - link "愿意听真话与善于听真话" [ref=e130] [cursor=pointer]:
+                        - /url: /2005-08-25/0556315551.html
+                      - text: (8月25日 05:56)
+                    - listitem [ref=e131]:
+                      - link "是水兵就要勇闯大洋(图)" [ref=e132] [cursor=pointer]:
+                        - /url: /2005-08-24/0620315313.html
+                      - text: (8月24日 06:20)
+                    - listitem [ref=e133]:
+                      - link "“降落伞是我们最好的朋友”(图)" [ref=e134] [cursor=pointer]:
+                        - /url: /2005-08-24/0620315314.html
+                      - text: (8月24日 06:20)
+                    - listitem [ref=e135]:
+                      - link "中俄联合军演“进行时”(组图)" [ref=e136] [cursor=pointer]:
+                        - /url: /2005-08-24/0620315315.html
+                      - text: (8月24日 06:20)
+                    - listitem [ref=e137]:
+                      - link "从美国“铁轨宽度”说开去" [ref=e138] [cursor=pointer]:
+                        - /url: /2005-08-24/0614315305.html
+                      - text: (8月24日 06:14)
+                    - listitem [ref=e139]:
+                      - link "战时工程装备信息化保障新走势(图)" [ref=e140] [cursor=pointer]:
+                        - /url: /2005-08-24/0614315310.html
+                      - text: (8月24日 06:14)
+                    - listitem [ref=e141]:
+                      - link "留神“间谍软件”侵袭" [ref=e142] [cursor=pointer]:
+                        - /url: /2005-08-24/0614315311.html
+                      - text: (8月24日 06:14)
+                    - listitem [ref=e143]:
+                      - link "U盘杀手惊现 用户当谨慎使用" [ref=e144] [cursor=pointer]:
+                        - /url: /2005-08-24/0614315312.html
+                      - text: (8月24日 06:14)
+                    - listitem [ref=e145]:
+                      - link "蕴育战斗精神离不开科技素养" [ref=e146] [cursor=pointer]:
+                        - /url: /2005-08-24/0610315307.html
+                      - text: (8月24日 06:10)
+                    - listitem [ref=e147]:
+                      - link "计算机除尘:为你支一招(图)" [ref=e148] [cursor=pointer]:
+                        - /url: /2005-08-24/0610315308.html
+                      - text: (8月24日 06:10)
+                    - listitem [ref=e149]:
+                      - link "军用地形图印刷质量评判系统自述" [ref=e150] [cursor=pointer]:
+                        - /url: /2005-08-24/0610315309.html
+                      - text: (8月24日 06:10)
+                    - listitem [ref=e151]:
+                      - link "电磁打击 瞄准未来信息化战争的“软肋”(组图)" [ref=e152] [cursor=pointer]:
+                        - /url: /2005-08-24/0608315280.html
+                      - text: (8月24日 06:08)
+                    - listitem [ref=e153]:
+                      - link "几种简便有效的电磁防护措施" [ref=e154] [cursor=pointer]:
+                        - /url: /2005-08-24/0608315281.html
+                      - text: (8月24日 06:08)
+                    - listitem [ref=e155]:
+                      - link "且看美军如何进行电磁防护" [ref=e156] [cursor=pointer]:
+                        - /url: /2005-08-24/0608315282.html
+                      - text: (8月24日 06:08)
+                    - listitem [ref=e157]:
+                      - link "军用装备的另类设计不可小视" [ref=e158] [cursor=pointer]:
+                        - /url: /2005-08-24/0608315284.html
+                      - text: (8月24日 06:08)
+                    - listitem [ref=e159]:
+                      - link "军报版面上的一起离奇“事件”" [ref=e160] [cursor=pointer]:
+                        - /url: /2005-08-24/0602315291.html
+                      - text: (8月24日 06:02)
+                    - listitem [ref=e161]:
+                      - link "给战士作鉴定要实事求是" [ref=e162] [cursor=pointer]:
+                        - /url: /2005-08-24/0602315292.html
+                      - text: (8月24日 06:02)
+                    - listitem [ref=e163]:
+                      - link "我为军营节约献一计" [ref=e164] [cursor=pointer]:
+                        - /url: /2005-08-24/0602315293.html
+                      - text: (8月24日 06:02)
+                    - listitem [ref=e165]:
+                      - link "保险柜不能成“多用柜”" [ref=e166] [cursor=pointer]:
+                        - /url: /2005-08-24/0602315294.html
+                      - text: (8月24日 06:02)
+                    - listitem [ref=e167]:
+                      - link "那封信，重如山" [ref=e168] [cursor=pointer]:
+                        - /url: /2005-08-24/0602315295.html
+                      - text: (8月24日 06:02)
+                    - listitem [ref=e169]:
+                      - link "除衣服汗渍二法" [ref=e170] [cursor=pointer]:
+                        - /url: /2005-08-24/0602315303.html
+                      - text: (8月24日 06:02)
+                    - listitem [ref=e171]:
+                      - link "“扫把考试”与用人策略" [ref=e172] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315271.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e173]:
+                      - link "“没有任何借口”" [ref=e174] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315272.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e175]:
+                      - link "坚持战斗力标准与安全标准的统一" [ref=e176] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315273.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e177]:
+                      - link "抗日战争时期共产党人先进性的体现" [ref=e178] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315274.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e179]:
+                      - link "社会主义和谐社会与思想道德建设" [ref=e180] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315275.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e181]:
+                      - link "保护抗战遗址" [ref=e182] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315324.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e183]:
+                      - link "跟随婆婆当“红嫂”(图)" [ref=e184] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315325.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e185]:
+                      - link "见证抗战(图)" [ref=e186] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315326.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e187]:
+                      - link "万里长空且为忠魂舞" [ref=e188] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315327.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e189]:
+                      - link "东北抗日联军第二路军西征(图)" [ref=e190] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315328.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e191]:
+                      - link "王树峰：侦察英雄威震敌胆" [ref=e192] [cursor=pointer]:
+                        - /url: /2005-08-24/0558315329.html
+                      - text: (8月24日 05:58)
+                    - listitem [ref=e193]:
+                      - link "中国国民党台中市党部访问团抵达厦门" [ref=e194] [cursor=pointer]:
+                        - /url: /2005-08-24/0553315268.html
+                      - text: (8月24日 05:53)
+                    - listitem [ref=e195]:
+                      - link "十届全国人大常委会第十七次会议在京开幕" [ref=e196] [cursor=pointer]:
+                        - /url: /2005-08-24/0553315321.html
+                      - text: (8月24日 05:53)
+                    - listitem [ref=e197]:
+                      - link "全国宣传部长座谈会在京举行" [ref=e198] [cursor=pointer]:
+                        - /url: /2005-08-24/0553315322.html
+                      - text: (8月24日 05:53)
+                    - listitem [ref=e199]:
+                      - link "“努力走出中国特色的科技创新之路”" [ref=e200] [cursor=pointer]:
+                        - /url: /2005-08-24/0553315323.html
+                      - text: (8月24日 05:53)
+                    - listitem [ref=e201]:
+                      - link "俄罗斯第7届莫斯科国际航空航天展完美闭幕" [ref=e202] [cursor=pointer]:
+                        - /url: /2005-08-23/0813315056.html
+                      - text: (8月23日 08:13)
+                    - listitem [ref=e203]:
+                      - link "俄罗斯第7届莫斯科国际航空航天展亮点多" [ref=e204] [cursor=pointer]:
+                        - /url: /2005-08-23/0812315055.html
+                      - text: (8月23日 08:12)
+                    - listitem [ref=e205]:
+                      - link "夏秋季节如何防治疖肿？" [ref=e206] [cursor=pointer]:
+                        - /url: /2005-08-23/0604315046.html
+                      - text: (8月23日 06:04)
+                    - listitem [ref=e207]:
+                      - link "强化合同护士野战救护技能" [ref=e208] [cursor=pointer]:
+                        - /url: /2005-08-23/0604315047.html
+                      - text: (8月23日 06:04)
+                    - listitem [ref=e209]:
+                      - link "送医送药保障官兵海训" [ref=e210] [cursor=pointer]:
+                        - /url: /2005-08-23/0604315048.html
+                      - text: (8月23日 06:04)
+                    - listitem [ref=e211]:
+                      - link "配戴隐形眼镜别忘了定期做眼科检查" [ref=e212] [cursor=pointer]:
+                        - /url: /2005-08-23/0604315049.html
+                      - text: (8月23日 06:04)
+                    - listitem [ref=e213]:
+                      - link "网络成瘾“再认识”" [ref=e214] [cursor=pointer]:
+                        - /url: /2005-08-23/0604315050.html
+                      - text: (8月23日 06:04)
+                    - listitem [ref=e215]:
+                      - link "容人不能容腐败" [ref=e216] [cursor=pointer]:
+                        - /url: /2005-08-23/0600315036.html
+                      - text: (8月23日 06:00)
+                    - listitem [ref=e217]:
+                      - link "不传闲话不听“小话”" [ref=e218] [cursor=pointer]:
+                        - /url: /2005-08-23/0600315037.html
+                      - text: (8月23日 06:00)
+                    - listitem [ref=e219]:
+                      - link "做生命的舵手" [ref=e220] [cursor=pointer]:
+                        - /url: /2005-08-23/0600315038.html
+                      - text: (8月23日 06:00)
+                    - listitem [ref=e221]:
+                      - link "走出“个性美”追求的误区" [ref=e222] [cursor=pointer]:
+                        - /url: /2005-08-23/0600315039.html
+                      - text: (8月23日 06:00)
+                    - listitem [ref=e223]:
+                      - link "猫·田鼠·熊蜂·三色堇" [ref=e224] [cursor=pointer]:
+                        - /url: /2005-08-23/0600315040.html
+                      - text: (8月23日 06:00)
+                    - listitem [ref=e225]:
+                      - link "确立好远行的目标" [ref=e226] [cursor=pointer]:
+                        - /url: /2005-08-23/0600315041.html
+                      - text: (8月23日 06:00)
+                    - listitem [ref=e227]:
+                      - link "“故事新编”救不了贪官" [ref=e228] [cursor=pointer]:
+                        - /url: /2005-08-23/0600315042.html
+                      - text: (8月23日 06:00)
+                    - listitem [ref=e229]:
+                      - link "疯狂索贿法纪难容" [ref=e230] [cursor=pointer]:
+                        - /url: /2005-08-23/0600315043.html
+                      - text: (8月23日 06:00)
+                    - listitem [ref=e231]:
+                      - link "伪装是留给自己的陷阱" [ref=e232] [cursor=pointer]:
+                        - /url: /2005-08-23/0600315044.html
+                      - text: (8月23日 06:00)
+                    - listitem [ref=e233]:
+                      - link "学会与战士同向思考" [ref=e234] [cursor=pointer]:
+                        - /url: /2005-08-23/0600315045.html
+                      - text: (8月23日 06:00)
+                    - listitem [ref=e235]:
+                      - link "长留浩气壮湖湘" [ref=e236] [cursor=pointer]:
+                        - /url: /2005-08-23/0556315007.html
+                      - text: (8月23日 05:56)
+                    - listitem [ref=e237]:
+                      - link "一次难忘的“铁路大翻身”(图)" [ref=e238] [cursor=pointer]:
+                        - /url: /2005-08-23/0556315008.html
+                      - text: (8月23日 05:56)
+                    - listitem [ref=e239]:
+                      - link "王光宇：一箭双雕扬威(图)" [ref=e240] [cursor=pointer]:
+                        - /url: /2005-08-23/0556315009.html
+                      - text: (8月23日 05:56)
+                    - listitem [ref=e241]:
+                      - link "铜锣径伏击战(图)" [ref=e242] [cursor=pointer]:
+                        - /url: /2005-08-23/0556315010.html
+                      - text: (8月23日 05:56)
+                    - listitem [ref=e243]:
+                      - link "让侵略者的罪行大白于天下" [ref=e244] [cursor=pointer]:
+                        - /url: /2005-08-23/0556315011.html
+                      - text: (8月23日 05:56)
+                    - listitem [ref=e245]:
+                      - link "见证抗战(图)" [ref=e246] [cursor=pointer]:
+                        - /url: /2005-08-23/0556315012.html
+                      - text: (8月23日 05:56)
+                    - listitem [ref=e247]:
+                      - link "发挥“后发”优势 走“复合”发展之路" [ref=e248] [cursor=pointer]:
+                        - /url: /2005-08-23/0553315003.html
+                      - text: (8月23日 05:53)
+                    - listitem [ref=e249]:
+                      - link "“集中”信息还是“集成”信息？" [ref=e250] [cursor=pointer]:
+                        - /url: /2005-08-23/0553315004.html
+                      - text: (8月23日 05:53)
+                    - listitem [ref=e251]:
+                      - link "强化领导干部的军事战略思想教育" [ref=e252] [cursor=pointer]:
+                        - /url: /2005-08-23/0553315005.html
+                      - text: (8月23日 05:53)
+                    - listitem [ref=e253]:
+                      - link "管理要为提高战斗力服务" [ref=e254] [cursor=pointer]:
+                        - /url: /2005-08-23/0553315006.html
+                      - text: (8月23日 05:53)
+                    - listitem [ref=e255]:
+                      - link "厉兵秣马在东瀛" [ref=e256] [cursor=pointer]:
+                        - /url: /2005-08-22/0622314754.html
+                      - text: (8月22日 06:22)
+                    - listitem [ref=e257]:
+                      - link "意甲新添三升班马(图)" [ref=e258] [cursor=pointer]:
+                        - /url: /2005-08-22/0622314755.html
+                      - text: (8月22日 06:22)
+                    - listitem [ref=e259]:
+                      - link "英美签下“千年老二”(图)" [ref=e260] [cursor=pointer]:
+                        - /url: /2005-08-22/0622314756.html
+                      - text: (8月22日 06:22)
+                    - listitem [ref=e261]:
+                      - link "德国开班扫“女球盲”(图)" [ref=e262] [cursor=pointer]:
+                        - /url: /2005-08-22/0622314757.html
+                      - text: (8月22日 06:22)
+                    - listitem [ref=e263]:
+                      - link "努力提高大学生的运动水平" [ref=e264] [cursor=pointer]:
+                        - /url: /2005-08-22/0622314758.html
+                      - text: (8月22日 06:22)
+                    - listitem [ref=e265]:
+                      - link "不能承受之重(图)" [ref=e266] [cursor=pointer]:
+                        - /url: /2005-08-22/0622314759.html
+                      - text: (8月22日 06:22)
+                    - listitem [ref=e267]:
+                      - link "老马当主持调侃贝利 足坛两巨头聚首荧屏" [ref=e268] [cursor=pointer]:
+                        - /url: /2005-08-22/0622314760.html
+                      - text: (8月22日 06:22)
+                    - listitem [ref=e269]:
+                      - link "奇！用头“打”篮球" [ref=e270] [cursor=pointer]:
+                        - /url: /2005-08-22/0622314761.html
+                      - text: (8月22日 06:22)
+                    - listitem [ref=e271]:
+                      - link "走上抗日战场的出家人(图)" [ref=e272] [cursor=pointer]:
+                        - /url: /2005-08-22/0618314692.html
+                      - text: (8月22日 06:18)
+                    - listitem [ref=e273]:
+                      - link "伟大的“兴国之光”" [ref=e274] [cursor=pointer]:
+                        - /url: /2005-08-22/0618314693.html
+                      - text: (8月22日 06:18)
+                  - generic [ref=e276]:
+                    - text: 【
+                    - link "全部新闻..." [ref=e277] [cursor=pointer]:
+                      - /url: 611.html
+                    - text: 】
+              - row [ref=e278]:
+                - cell [ref=e279]
+  - table [ref=e280]:
+    - rowgroup [ref=e281]:
+      - row [ref=e282]:
+        - cell [ref=e283]:
+          - img [ref=e284]
+  - paragraph [ref=e285]:
+    - link "首页" [ref=e286] [cursor=pointer]:
+      - /url: /index.shtml
+    - text: "|"
+    - link "将军寄语" [ref=e287] [cursor=pointer]:
+      - /url: /jiyu/index.shtml
+    - text: "|"
+    - link "中 国军事" [ref=e288] [cursor=pointer]:
+      - /url: /col/junshi/index.html
+    - text: "|"
+    - link "军事图片" [ref=e289] [cursor=pointer]:
+      - /url: /tupian/index.shtml
+    - text: "|"
+    - link "武器纵横" [ref=e290] [cursor=pointer]:
+      - /url: /col/zongheng/index.html
+    - text: "|"
+    - link "周边军情" [ref=e291] [cursor=pointer]:
+      - /url: /col/junqing/index.html
+    - text: "|"
+    - link "战略视角" [ref=e292] [cursor=pointer]:
+      - /url: /col/shijiao/index.html
+    - text: "|"
+    - link "各国军力" [ref=e293] [cursor=pointer]:
+      - /url: /col/junli/index.html
+  - paragraph [ref=e294]:
+    - text: 本网站由舰船知识主办
+    - text: 版权归舰船知识所有，未经允许不得转载

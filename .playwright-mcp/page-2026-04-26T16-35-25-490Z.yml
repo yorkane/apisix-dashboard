@@ -1,0 +1,177 @@
+- generic [ref=e73]:
+  - complementary [ref=e75]:
+    - generic [ref=e76]:
+      - menu [ref=e78]:
+        - menuitem "Dashboard" [ref=e79] [cursor=pointer]:
+          - link "Dashboard" [ref=e80]:
+            - /url: /dashboard
+            - generic [ref=e81]:
+              - img [ref=e82]
+              - text: Dashboard
+        - menuitem "Route" [ref=e84] [cursor=pointer]:
+          - link "Route" [ref=e85]:
+            - /url: /routes/list
+            - generic [ref=e86]:
+              - img [ref=e87]
+              - text: Route
+        - menuitem "Stream Route" [ref=e89] [cursor=pointer]:
+          - generic [ref=e200]:
+            - img [ref=e201]
+            - text: Stream Route
+        - menuitem "Upstream" [ref=e94] [cursor=pointer]:
+          - link "Upstream" [ref=e95]:
+            - /url: /upstream/list
+            - generic [ref=e96]:
+              - img [ref=e97]
+              - text: Upstream
+        - menuitem "Service" [ref=e99] [cursor=pointer]:
+          - link "Service" [ref=e100]:
+            - /url: /service/list
+            - generic [ref=e101]:
+              - img [ref=e102]
+              - text: Service
+        - menuitem "Consumer" [ref=e104] [cursor=pointer]:
+          - link "Consumer" [ref=e105]:
+            - /url: /consumer/list
+            - generic [ref=e106]:
+              - img [ref=e107]
+              - text: Consumer
+        - menuitem "file-text Protocol Buffers" [ref=e109] [cursor=pointer]:
+          - link "file-text Protocol Buffers" [ref=e110]:
+            - /url: /proto/list
+            - generic [ref=e111]:
+              - img "file-text" [ref=e112]:
+                - img [ref=e113]
+              - text: Protocol Buffers
+        - menuitem "Plugin" [ref=e115] [cursor=pointer]:
+          - link "Plugin" [ref=e116]:
+            - /url: /plugin/list
+            - generic [ref=e117]:
+              - img [ref=e118]
+              - text: Plugin
+        - menuitem "SSL" [ref=e120] [cursor=pointer]:
+          - link "SSL" [ref=e121]:
+            - /url: /ssl/list
+            - generic [ref=e122]:
+              - img [ref=e123]
+              - text: SSL
+        - menuitem "info-circle System Info" [ref=e125] [cursor=pointer]:
+          - link "info-circle System Info" [ref=e126]:
+            - /url: /serverinfo
+            - generic [ref=e127]:
+              - img "info-circle" [ref=e128]:
+                - img [ref=e129]
+              - text: System Info
+      - menu [ref=e133]:
+        - menuitem "menu-fold" [ref=e134] [cursor=pointer]:
+          - img "menu-fold" [ref=e135]:
+            - img [ref=e136]
+  - generic [ref=e138]:
+    - generic [ref=e141]:
+      - generic [ref=e143] [cursor=pointer]:
+        - img "logo" [ref=e144]
+        - heading "APISIX Dashboard" [level=1] [ref=e145]
+      - generic [ref=e147]:
+        - link "question-circle" [ref=e149] [cursor=pointer]:
+          - /url: https://apisix.apache.org/docs/apisix/getting-started
+          - img "question-circle" [ref=e151]:
+            - img [ref=e152]
+        - generic [ref=e156] [cursor=pointer]:
+          - img "avatar" [ref=e158]
+          - generic: APISIX User
+        - img [ref=e162] [cursor=pointer]
+    - main [ref=e165]:
+      - generic [ref=e203]:
+        - generic "Stream Route" [ref=e208]
+        - generic [ref=e213]:
+          - generic [ref=e216]:
+            - generic [ref=e218]:
+              - generic "Server Addr" [ref=e220]: "Server Addr :"
+              - textbox "Server Addr :" [ref=e225]:
+                - /placeholder: Please enter
+            - generic [ref=e228]:
+              - generic "Server Port" [ref=e230]: "Server Port :"
+              - textbox "Server Port :" [ref=e235]:
+                - /placeholder: Please enter
+            - generic [ref=e238]:
+              - generic "SNI" [ref=e240]: "SNI :"
+              - textbox "SNI :" [ref=e245]:
+                - /placeholder: Please enter
+            - text: ":"
+            - generic [ref=e254]:
+              - generic [ref=e256]:
+                - button "Reset" [ref=e258] [cursor=pointer]:
+                  - generic [ref=e259]: Reset
+                - button "Query" [ref=e261] [cursor=pointer]:
+                  - generic [ref=e262]: Query
+              - generic [ref=e264] [cursor=pointer]:
+                - text: Expand
+                - img "down" [ref=e265]:
+                  - img [ref=e266]
+          - generic [ref=e269]:
+            - generic [ref=e272]:
+              - button "plus Create" [ref=e276] [cursor=pointer]:
+                - img "plus" [ref=e277]:
+                  - img [ref=e278]
+                - generic [ref=e281]: Create
+              - generic [ref=e283]:
+                - img "reload" [ref=e287] [cursor=pointer]:
+                  - img [ref=e288]
+                - img "column-height" [ref=e293] [cursor=pointer]:
+                  - img [ref=e294]
+                - img "setting" [ref=e298] [cursor=pointer]:
+                  - img [ref=e299]
+            - generic [ref=e303]:
+              - table [ref=e307]:
+                - rowgroup [ref=e309]:
+                  - row "Server Addr Server Port SNI Remote Addr Description Update Time Action" [ref=e310]:
+                    - columnheader "Server Addr" [ref=e311]
+                    - columnheader "Server Port" [ref=e312]
+                    - columnheader "SNI" [ref=e313]
+                    - columnheader "Remote Addr" [ref=e314]
+                    - columnheader "Description" [ref=e315]
+                    - columnheader "Update Time" [ref=e316]
+                    - columnheader "Action" [ref=e317]
+                - rowgroup [ref=e318]:
+                  - row "- 60001 - - - 2026-04-26 19:21:13 Edit Delete" [ref=e319]:
+                    - cell "-" [ref=e320]
+                    - cell "60001" [ref=e321]
+                    - cell "-" [ref=e322]
+                    - cell "-" [ref=e323]
+                    - cell "-" [ref=e324]
+                    - cell "2026-04-26 19:21:13" [ref=e325]
+                    - cell "Edit Delete" [ref=e326]:
+                      - button "Edit" [ref=e327] [cursor=pointer]:
+                        - generic [ref=e328]: Edit
+                      - button "Delete" [ref=e329] [cursor=pointer]:
+                        - generic [ref=e330]: Delete
+              - list [ref=e331]:
+                - listitem [ref=e332]: 1-1 of 1 items
+                - listitem "Previous Page" [ref=e333]:
+                  - button "left" [disabled] [ref=e334]:
+                    - img "left" [ref=e335]:
+                      - img [ref=e336]
+                - listitem "1" [ref=e338] [cursor=pointer]:
+                  - generic [ref=e339]: "1"
+                - listitem "Next Page" [ref=e340]:
+                  - button "right" [disabled] [ref=e341]:
+                    - img "right" [ref=e342]:
+                      - img [ref=e343]
+                - listitem [ref=e345]:
+                  - generic [ref=e346] [cursor=pointer]:
+                    - generic [ref=e347]:
+                      - combobox [ref=e349]
+                      - generic "20 / page" [ref=e350]
+                    - generic:
+                      - img:
+                        - img
+    - generic [ref=e190]:
+      - link "github" [ref=e192] [cursor=pointer]:
+        - /url: https://github.com/apache/apisix
+        - img "github" [ref=e193]:
+          - img [ref=e194]
+      - generic [ref=e196]:
+        - text: Copyright
+        - img "copyright" [ref=e197]:
+          - img [ref=e198]
+        - text: 2026 Apache APISIX

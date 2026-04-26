@@ -25,32 +25,44 @@ const StreamRouteCreate: React.FC = () => {
     fetchUpstreams();
     if (isEdit) {
       fetchItem(id).then((data) => {
-        form.setFieldsValue({
-          desc: data.desc,
-          server_addr: data.server_addr,
-          server_port: data.server_port,
-          sni: data.sni,
-          remote_addr: data.remote_addr,
-        });
-        if (data.upstream_id) {
-          upstreamForm.setFieldsValue({ upstream_id: data.upstream_id });
-        } else if (data.upstream) {
-          // It's a custom upstream
-          upstreamForm.setFieldsValue({ upstream_id: 'Custom', ...data.upstream });
+        form.setFieldsValue(data);
+        if (data.upstream) {
+          const { nodes, ...restUpstream } = data.upstream;
+          const submitNodes = Object.entries(nodes || {}).map(([key, weight]) => {
+            const [host, port] = key.split(':');
+            return {
+              host,
+              port: port ? Number(port) : undefined,
+              weight,
+            };
+          });
+          upstreamForm.setFieldsValue({
+            ...restUpstream,
+            scheme: restUpstream.scheme || 'tcp',
+            submitNodes,
+          });
         }
       });
     } else {
-       upstreamForm.setFieldsValue({ upstream_id: 'Custom' });
+      // Set default scheme to tcp for new stream routes
+      setTimeout(() => {
+        upstreamForm.setFieldsValue({ scheme: 'tcp' });
+      }, 0);
     }
-  }, [isEdit, id, upstreamForm, form]);
+  }, [id, isEdit, form, upstreamForm]);
 
   const onSubmit = async () => {
     try {
       const values = await form.validateFields();
       
-      const payload: StreamRouteModule.BaseData = {
+      const payload: any = {
         ...values,
       };
+
+      // Strip empty optional fields
+      if (!payload.server_addr) delete payload.server_addr;
+      if (!payload.remote_addr) delete payload.remote_addr;
+      if (!payload.sni) delete payload.sni;
 
       const upstreamData = upstreamRef.current?.getData();
       

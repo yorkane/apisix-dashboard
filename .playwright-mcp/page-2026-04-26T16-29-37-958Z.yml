@@ -1,0 +1,256 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - heading "新浪新闻" [level=1] [ref=e6]:
+          - link "新浪新闻" [ref=e8] [cursor=pointer]:
+            - /url: http://news.sina.com.cn/
+            - img "新浪新闻" [ref=e9]
+        - generic [ref=e10]:
+          - link "新浪新闻" [ref=e11] [cursor=pointer]:
+            - /url: http://news.sina.com.cn/
+          - text: "|"
+          - link "新浪首页" [ref=e12] [cursor=pointer]:
+            - /url: http://www.sina.com.cn/
+          - text: "|"
+          - link "新浪导航" [ref=e13] [cursor=pointer]:
+            - /url: http://news.sina.com.cn/guide/
+      - generic [ref=e14]:
+        - heading "2026年4月27日 undefined滚动新闻" [level=1] [ref=e15]
+        - generic [ref=e17]:
+          - textbox [ref=e18]: 印度
+          - option "按标题" [selected]
+          - option "按全文"
+          - option "全部时间" [selected]
+          - option "一天内"
+          - option "一周内"
+          - option "一月内"
+          - button "搜索" [ref=e19]
+          - generic [ref=e22]: 按标题
+          - generic [ref=e25]: 全部时间
+          - generic [ref=e28]: 按标题
+          - generic [ref=e31]: 全部时间
+          - link "×" [ref=e33] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - generic [ref=e37]:
+          - link "59秒后刷新" [ref=e38] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - button "刷新" [ref=e40]
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]: 栏目
+            - generic [ref=e44]: 标题
+            - generic [ref=e45]: 时间
+          - generic [ref=e48]:
+            - text: 上一页
+            - link "NaN" [ref=e50] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "NaN" [ref=e52] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "NaN" [ref=e54] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "NaN" [ref=e56] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "NaN" [ref=e58] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "NaN" [ref=e60] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "NaN" [ref=e62] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "NaN" [ref=e64] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "NaN" [ref=e66] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "NaN" [ref=e68] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "NaN" [ref=e70] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "下一页" [ref=e72] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - paragraph [ref=e74]:
+      - link "意见反馈留言板" [ref=e75] [cursor=pointer]:
+        - /url: http://news.sina.com.cn/guest.html
+      - text: 客服热线：4001102288 欢迎批评指正 新浪公司
+      - link "版权所有" [ref=e76] [cursor=pointer]:
+        - /url: http://www.sina.com.cn/intro/copyright.shtml
+      - text: Copyright © 1996-2025 SINA Corporation, All Rights Reserved
+  - generic [ref=e78]:
+    - generic [ref=e79]:
+      - generic [ref=e80]: 栏目
+      - generic [ref=e81]:
+        - link "全部" [ref=e82] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "国内" [ref=e83] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "国际" [ref=e84] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "社会" [ref=e85] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "体育" [ref=e86] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "娱乐" [ref=e87] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "军事" [ref=e88] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "科技" [ref=e89] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "财经" [ref=e90] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "股市" [ref=e91] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "美股" [ref=e92] [cursor=pointer]:
+          - /url: javascript:void(0)
+    - generic [ref=e93]:
+      - generic [ref=e94]: 设置
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]: 刷新间隔：
+          - generic [ref=e99]:
+            - link "30秒" [ref=e100] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - text: 60秒
+            - link "90秒" [ref=e101] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e102]:
+          - generic [ref=e103]: 往日回顾
+          - link "自动隐藏" [ref=e104] [cursor=pointer]:
+            - /url: javascript:void(0)
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - link "<<" [ref=e108] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - generic [ref=e109]:
+          - combobox [ref=e110]:
+            - option "2009年"
+            - option "2010年"
+            - option "2011年"
+            - option "2012年"
+            - option "2013年"
+            - option "2014年"
+            - option "2015年"
+            - option "2016年"
+            - option "2017年"
+            - option "2018年"
+            - option "2019年"
+            - option "2020年"
+            - option "2021年"
+            - option "2022年"
+            - option "2023年"
+            - option "2024年"
+            - option "2025年"
+            - option "2026年" [selected]
+          - combobox [ref=e111]:
+            - option "1月"
+            - option "2月"
+            - option "3月"
+            - option "4月" [selected]
+      - generic [ref=e112]:
+        - definition [ref=e113]: 日
+        - definition [ref=e114]: 一
+        - definition [ref=e115]: 二
+        - definition [ref=e116]: 三
+        - definition [ref=e117]: 四
+        - definition [ref=e118]: 五
+        - definition [ref=e119]: 六
+      - table [ref=e121]:
+        - rowgroup [ref=e122]:
+          - row "1 2 3 4" [ref=e123]:
+            - cell [ref=e124]
+            - cell [ref=e125]
+            - cell [ref=e126]
+            - cell "1" [ref=e127]:
+              - link "1" [ref=e128] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "2" [ref=e129]:
+              - link "2" [ref=e130] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "3" [ref=e131]:
+              - link "3" [ref=e132] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "4" [ref=e133]:
+              - link "4" [ref=e134] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row "5 6 7 8 9 10 11" [ref=e135]:
+            - cell "5" [ref=e136]:
+              - link "5" [ref=e137] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "6" [ref=e138]:
+              - link "6" [ref=e139] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "7" [ref=e140]:
+              - link "7" [ref=e141] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "8" [ref=e142]:
+              - link "8" [ref=e143] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "9" [ref=e144]:
+              - link "9" [ref=e145] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "10" [ref=e146]:
+              - link "10" [ref=e147] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "11" [ref=e148]:
+              - link "11" [ref=e149] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row "12 13 14 15 16 17 18" [ref=e150]:
+            - cell "12" [ref=e151]:
+              - link "12" [ref=e152] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "13" [ref=e153]:
+              - link "13" [ref=e154] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "14" [ref=e155]:
+              - link "14" [ref=e156] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "15" [ref=e157]:
+              - link "15" [ref=e158] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "16" [ref=e159]:
+              - link "16" [ref=e160] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "17" [ref=e161]:
+              - link "17" [ref=e162] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "18" [ref=e163]:
+              - link "18" [ref=e164] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row "19 20 21 22 23 24 25" [ref=e165]:
+            - cell "19" [ref=e166]:
+              - link "19" [ref=e167] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "20" [ref=e168]:
+              - link "20" [ref=e169] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "21" [ref=e170]:
+              - link "21" [ref=e171] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "22" [ref=e172]:
+              - link "22" [ref=e173] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "23" [ref=e174]:
+              - link "23" [ref=e175] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "24" [ref=e176]:
+              - link "24" [ref=e177] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "25" [ref=e178]:
+              - link "25" [ref=e179] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - row "26 27 28 29 30" [ref=e180]:
+            - cell "26" [ref=e181]:
+              - link "26" [ref=e182] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - cell "27" [ref=e183]
+            - cell "28" [ref=e184]
+            - cell "29" [ref=e185]
+            - cell "30" [ref=e186]
+            - cell [ref=e187]
+            - cell [ref=e188]
+          - row [ref=e189]:
+            - cell [ref=e190]
+            - cell [ref=e191]
+            - cell [ref=e192]
+            - cell [ref=e193]
+            - cell [ref=e194]
+            - cell [ref=e195]
+            - cell [ref=e196]

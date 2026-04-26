@@ -1,0 +1,378 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link "新浪网" [ref=e7] [cursor=pointer]:
+          - /url: https://www.sina.com.cn/
+          - img "新浪网" [ref=e8]
+        - link "新浪军事" [ref=e9] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn/
+          - img "新浪军事" [ref=e10]
+      - generic [ref=e11]:
+        - link "军事首页" [ref=e12] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn/
+        - text: "|"
+        - link "新浪首页" [ref=e13] [cursor=pointer]:
+          - /url: https://www.sina.com.cn/
+        - text: "|"
+        - link "新浪导航" [ref=e14] [cursor=pointer]:
+          - /url: https://news.sina.com.cn/guide/
+    - iframe [ref=e15]
+    - list [ref=e17]:
+      - listitem [ref=e18]:
+        - link "首页" [ref=e19] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn
+      - listitem [ref=e20]:
+        - link "中国军情" [ref=e21] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn/roll/index.d.html?cid=57918
+      - listitem [ref=e22]:
+        - link "国际军情" [ref=e23] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn/roll/index.d.html?cid=57919
+      - listitem [ref=e24]:
+        - link "大国博弈" [ref=e25] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn/dgby/
+      - listitem [ref=e26]:
+        - link "军史回眸" [ref=e27] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn/jshm/
+      - listitem [ref=e28]:
+        - link "东海局势" [ref=e29] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn/roll/index.d.html?cid=234399
+      - listitem [ref=e30]:
+        - link "南海局势" [ref=e31] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn/roll/index.d.html?cid=234400
+      - listitem [ref=e32]:
+        - link "军事微博" [ref=e33] [cursor=pointer]:
+          - /url: https://weibo.com/milnews
+      - listitem [ref=e34]:
+        - link "军事图库" [ref=e35] [cursor=pointer]:
+          - /url: http://mil.news.sina.com.cn/photo/
+      - listitem [ref=e36]:
+        - link "航空航天" [ref=e37] [cursor=pointer]:
+          - /url: https://sky.news.sina.com.cn/
+      - listitem [ref=e38]:
+        - link "新闻排行" [ref=e39] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn/hotnews/Daily/index.shtml
+      - listitem [ref=e40]:
+        - link "回顾页面" [ref=e41] [cursor=pointer]:
+          - /url: https://mil.news.sina.com.cn/oldnews/index.shtml
+    - generic [ref=e44]:
+      - textbox [ref=e45]: 请输入关键词
+      - combobox [ref=e46]:
+        - option "新闻" [selected]
+        - option "图片"
+        - option "博客"
+        - option "视频"
+      - button "搜 索" [ref=e47] [cursor=pointer]
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - heading "新浪军事" [level=3] [ref=e51]
+        - generic [ref=e52]:
+          - list [ref=e53]:
+            - listitem [ref=e54]:
+              - link "人类马拉松进入破“2”时代" [ref=e55] [cursor=pointer]:
+                - /url: https://news.sina.cn/zt_d/subject-1777208190?vt=4
+              - generic [ref=e56]: (04月26日 20:57)
+            - listitem [ref=e57]:
+              - link "蒙古发生6.0级地震 震源深度15千米" [ref=e58] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-26/doc-inhvuxuh9981742.shtml
+              - generic [ref=e59]: (04月26日 12:54)
+            - listitem [ref=e60]:
+              - link "美国白宫记者晚宴发生枪击事件" [ref=e61] [cursor=pointer]:
+                - /url: https://news.sina.cn/zt_d/subject-1777164852?vt=4
+              - generic [ref=e62]: (04月26日 08:55)
+            - listitem [ref=e63]:
+              - link "南部战区107编队演训影响几何 专家解读" [ref=e64] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-26/doc-inhvtwhv0451776.shtml
+              - generic [ref=e65]: (04月26日 01:08)
+            - listitem [ref=e66]:
+              - link "中国驻马里大使馆发布关于马里突发安全事件的领事提醒" [ref=e67] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-25/doc-inhvtmtf0823809.shtml
+              - generic [ref=e68]: (04月25日 19:42)
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - link "媒体曝中国羽协主席张军失联" [ref=e71] [cursor=pointer]:
+                - /url: https://news.sina.cn/zt_d/subject-1777098018?vt=4
+              - generic [ref=e72]: (04月25日 14:21)
+            - listitem [ref=e73]:
+              - link "加快实现军事训练转型升级丨“小棋子”走活“大棋局”" [ref=e74] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-25/doc-inhvsqpk2641864.shtml
+              - generic [ref=e75]: (04月25日 11:03)
+            - listitem [ref=e76]:
+              - link "大别山下，抗美援朝老兵王茂贵义务守护红军烈士墓58年" [ref=e77] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-25/doc-inhvsqpe7310474.shtml
+              - generic [ref=e78]: (04月25日 11:03)
+            - listitem [ref=e79]:
+              - link "美伊冲突延宕 欧盟峰会能否破解安全与能源双重困局？" [ref=e80] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-25/doc-inhvscxq2766825.shtml
+              - generic [ref=e81]: (04月25日 05:45)
+            - listitem [ref=e82]:
+              - link "中方：再次向欧方提出严正交涉" [ref=e83] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-25/doc-inhvrtiq7654271.shtml
+              - generic [ref=e84]: (04月24日 23:21)
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - link "美伊谈判，最新动向" [ref=e87] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-25/doc-inhvrtiu2993294.shtml
+              - generic [ref=e88]: (04月24日 21:54)
+            - listitem [ref=e89]:
+              - link "福建海警位金门附近海域依法开展常态执法巡查" [ref=e90] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvrhts4348150.shtml
+              - generic [ref=e91]: (04月24日 21:47)
+            - listitem [ref=e92]:
+              - link "12306，优惠上新！" [ref=e93] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-25/doc-inhvrtiq7654650.shtml
+              - generic [ref=e94]: (04月24日 20:50)
+            - listitem [ref=e95]:
+              - link "解放军舰艇编队位菲律宾吕宋岛以东海域开展演训活动" [ref=e96] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvramu4394511.shtml
+              - generic [ref=e97]: (04月24日 19:38)
+            - listitem [ref=e98]:
+              - link "“针对当前地区局势采取的必要行动”，南部战区组织107编队位菲律宾吕宋岛以东海域开展演训活动" [ref=e99] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-25/doc-inhvrtiu2990725.shtml
+              - generic [ref=e100]: (04月24日 18:23)
+          - list [ref=e101]:
+            - listitem [ref=e102]:
+              - link "阿努廷：感谢中方" [ref=e103] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvramy4630386.shtml
+              - generic [ref=e104]: (04月24日 17:54)
+            - listitem [ref=e105]:
+              - link "“自己举报自己”最新进展，高校通报！" [ref=e106] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvqwee3181021.shtml
+              - generic [ref=e107]: (04月24日 16:29)
+            - listitem [ref=e108]:
+              - link "中方：将7家欧盟实体列入出口管制管控名单" [ref=e109] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvqwcw4365092.shtml
+              - generic [ref=e110]: (04月24日 16:05)
+            - listitem [ref=e111]:
+              - link "中方三个“绝不”回应日本涉军动向" [ref=e112] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvqwcw4351088.shtml
+              - generic [ref=e113]: (04月24日 15:46)
+            - listitem [ref=e114]:
+              - link "飞天梦想，从这里启航" [ref=e115] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvqrwh3193343.shtml
+              - generic [ref=e116]: (04月24日 13:56)
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - link "日本公布F2战斗机坠毁原因：发动机长期未适当维护" [ref=e119] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvqmqh4857735.shtml
+              - generic [ref=e120]: (04月24日 13:19)
+            - listitem [ref=e121]:
+              - link "海军在多地举行活动 40多艘舰艇向公众开放" [ref=e122] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvqmqa4494943.shtml
+              - generic [ref=e123]: (04月24日 13:09)
+            - listitem [ref=e124]:
+              - link "女大学生去泰国泼水节被转卖" [ref=e125] [cursor=pointer]:
+                - /url: https://news.sina.cn/zt_d/subject-1777005411?vt=4
+              - generic [ref=e126]: (04月24日 12:38)
+            - listitem [ref=e127]:
+              - link "中国驻泰国大使馆提醒中国公民谨防被诱骗经泰国前往泰缅边境" [ref=e128] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvqmqk3273992.shtml
+              - generic [ref=e129]: (04月24日 12:35)
+            - listitem [ref=e130]:
+              - link "关于榴莲的消费提示" [ref=e131] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvqfhe4510122.shtml
+              - generic [ref=e132]: (04月24日 10:48)
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - link "国际油价，显著上涨！" [ref=e135] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvqfhe4510619.shtml
+              - generic [ref=e136]: (04月24日 10:48)
+            - listitem [ref=e137]:
+              - link "海军工程大学“深蓝为战”讲堂——学员登台当“教员”" [ref=e138] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvqfhn3294778.shtml
+              - generic [ref=e139]: (04月24日 10:21)
+            - listitem [ref=e140]:
+              - link "军营观察丨读懂“海上猛虎艇”的传家信" [ref=e141] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvqfhn3294605.shtml
+              - generic [ref=e142]: (04月24日 10:20)
+            - listitem [ref=e143]:
+              - link "巴基斯坦、埃及、土耳其、印尼、约旦、卡塔尔、沙特和阿联酋外长发表联合声明" [ref=e144] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvqfhe4438505.shtml
+              - generic [ref=e145]: (04月24日 09:22)
+            - listitem [ref=e146]:
+              - link "伊朗最高领袖、总统、议长、外长，同日发声" [ref=e147] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvqfhk4812818.shtml
+              - generic [ref=e148]: (04月24日 09:22)
+          - list [ref=e149]:
+            - listitem [ref=e150]:
+              - link "中学生与海军官兵齐唱《我爱这蓝色的海洋》，共祝人民海军生日快乐" [ref=e151] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvqfhe4447224.shtml
+              - generic [ref=e152]: (04月24日 09:21)
+            - listitem [ref=e153]:
+              - link "航母舰载机之“伙伴加油”" [ref=e154] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvqfhn3226782.shtml
+              - generic [ref=e155]: (04月24日 09:09)
+            - listitem [ref=e156]:
+              - link "成梁：“某新型舰载机”，到底有多新？" [ref=e157] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvqfhe4432207.shtml
+              - generic [ref=e158]: (04月24日 09:09)
+            - listitem [ref=e159]:
+              - link "全国首例“职场性侵认定工伤案”开庭" [ref=e160] [cursor=pointer]:
+                - /url: https://news.sina.cn/zt_d/subject-1776989291?vt=4
+              - generic [ref=e161]: (04月24日 08:10)
+            - listitem [ref=e162]:
+              - link "2026羽毛球汤尤杯" [ref=e163] [cursor=pointer]:
+                - /url: https://news.sina.cn/zt_d/subject-1776987927?vt=4
+              - generic [ref=e164]: (04月24日 07:48)
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - link "身份证到期更换，社保卡需要换吗？" [ref=e167] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvpyyq3301421.shtml
+              - generic [ref=e168]: (04月24日 07:40)
+            - listitem [ref=e169]:
+              - link "山河埋忠骨 英烈永留名——第十三批在韩中国人民志愿军烈士遗骸安葬仪式侧记" [ref=e170] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-24/doc-inhvpyyq3338789.shtml
+              - generic [ref=e171]: (04月24日 06:30)
+            - listitem [ref=e172]:
+              - link "人民海军成立77周年 公众登舰参观如何看出门道" [ref=e173] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-24/doc-inhvpkaw3594194.shtml
+              - generic [ref=e174]: (04月24日 00:53)
+            - listitem [ref=e175]:
+              - link "涉霍尔木兹海峡，德国发表声明" [ref=e176] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-23/doc-inhvpkaq4773193.shtml
+              - generic [ref=e177]: (04月23日 23:50)
+            - listitem [ref=e178]:
+              - link "最新！中国驻伊朗大使馆发布提醒" [ref=e179] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-23/doc-inhvpkaq4773163.shtml
+              - generic [ref=e180]: (04月23日 23:50)
+        - generic [ref=e181]:
+          - generic [ref=e182]: "1"
+          - link "2" [ref=e184] [cursor=pointer]:
+            - /url: https://mil.news.sina.com.cn/roll/index.d.html?page=2
+          - link "3" [ref=e186] [cursor=pointer]:
+            - /url: https://mil.news.sina.com.cn/roll/index.d.html?page=3
+          - link "4" [ref=e188] [cursor=pointer]:
+            - /url: https://mil.news.sina.com.cn/roll/index.d.html?page=4
+          - link "5" [ref=e190] [cursor=pointer]:
+            - /url: https://mil.news.sina.com.cn/roll/index.d.html?page=5
+          - link "下一页" [ref=e192] [cursor=pointer]:
+            - /url: https://mil.news.sina.com.cn/roll/index.d.html?page=2
+          - link "下5页" [ref=e194] [cursor=pointer]:
+            - /url: https://mil.news.sina.com.cn/roll/index.d.html?page=10
+      - iframe [ref=e196]:
+        - generic [active] [ref=f21e1]:
+          - generic [ref=f21e2]:
+            - list:
+              - listitem [ref=f21e3]:
+                - generic [ref=f21e4]: 新闻排行
+              - listitem [ref=f21e5]:
+                - generic [ref=f21e6]: 论坛排行
+          - list [ref=f21e8]:
+            - listitem [ref=f21e9]:
+              - generic [ref=f21e10]: "1"
+              - link "南部战区107编队演训影响几何 专家解读" [ref=f21e11] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-26/doc-inhvtwhv0451776.shtml
+            - listitem [ref=f21e12]:
+              - generic [ref=f21e13]: "2"
+              - link "美在欧洲部署先进武器？俄警告：可能作出军事回应" [ref=f21e14] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2022-01-11/doc-ikyamrmz4554183.shtml
+            - listitem [ref=f21e15]:
+              - generic [ref=f21e16]: "3"
+              - link "欧盟称将对俄实施新的最严厉制裁 涉经济和政治精英" [ref=f21e17] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2022-02-25/doc-imcwipih5299784.shtml
+            - listitem [ref=f21e18]:
+              - generic [ref=f21e19]: "4"
+              - link "大别山下，抗美援朝老兵王茂贵义务守护红军烈士墓58年" [ref=f21e20] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-25/doc-inhvsqpe7310474.shtml
+            - listitem [ref=f21e21]:
+              - generic [ref=f21e22]: "5"
+              - link "俄驻美大使：望美媒停止煽动恐俄情绪 公正报道" [ref=f21e23] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2022-03-15/doc-imcwiwss6115004.shtml
+            - listitem [ref=f21e24]:
+              - generic [ref=f21e25]: "6"
+              - link "美国驻墨西哥新拉雷多领事馆遭枪击 已临时关闭" [ref=f21e26] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2022-03-15/doc-imcwiwss6113421.shtml
+            - listitem [ref=f21e27]:
+              - generic [ref=f21e28]: "7"
+              - link "赵立坚：台湾地区如被俄罗斯制裁是咎由自取" [ref=f21e29] [cursor=pointer]:
+                - /url: http://mil.news.sina.com.cn/2022-03-14/doc-imcwiwss6029251.shtml
+            - listitem [ref=f21e30]:
+              - generic [ref=f21e31]: "8"
+              - link "外媒：伊朗称挫败一起以色列针对伊核设施破坏行动" [ref=f21e32] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2022-03-15/doc-imcwiwss6187206.shtml
+            - listitem [ref=f21e33]:
+              - generic [ref=f21e34]: "9"
+              - link "韩国防部：韩政府将向乌克兰提供非武器军事援助" [ref=f21e35] [cursor=pointer]:
+                - /url: http://mil.news.sina.com.cn/2022-03-15/doc-imcwiwss6153161.shtml
+            - listitem [ref=f21e36]:
+              - generic [ref=f21e37]: "10"
+              - link "中国撤出首批公民" [ref=f21e38] [cursor=pointer]:
+                - /url: http://mil.news.sina.com.cn/2022-03-01/doc-imcwipih5935494.shtml
+            - listitem [ref=f21e39]:
+              - generic [ref=f21e40]: "11"
+              - link "俄代表团团长：俄乌视频会谈每天都在进行没有休息日" [ref=f21e41] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2022-03-15/doc-imcwiwss6044212.shtml
+            - listitem [ref=f21e42]:
+              - generic [ref=f21e43]: "12"
+              - link "日增重回30万例以下 韩国4月4日起放宽防疫措施两周" [ref=f21e44] [cursor=pointer]:
+                - /url: http://mil.news.sina.com.cn/2022-04-01/doc-imcwipii1785086.shtml
+            - listitem [ref=f21e45]:
+              - generic [ref=f21e46]: "13"
+              - link "北约:俄军正在乌重新部署和集结 将在顿巴斯发起攻势" [ref=f21e47] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2022-04-01/doc-imcwiwss9352888.shtml
+            - listitem [ref=f21e48]:
+              - generic [ref=f21e49]: "14"
+              - link "韩国空军两架初级教练机空中相撞坠毁 机上3死1重伤" [ref=f21e50] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/world/2022-04-01/doc-imcwipii1815462.shtml
+            - listitem [ref=f21e51]:
+              - generic [ref=f21e52]: "15"
+              - link "北京昨日新增本土确诊病例6例 详情公布" [ref=f21e53] [cursor=pointer]:
+                - /url: http://mil.news.sina.com.cn/2022-03-15/doc-imcwiwss6078369.shtml
+            - listitem [ref=f21e54]:
+              - generic [ref=f21e55]: "16"
+              - link "加快实现军事训练转型升级丨“小棋子”走活“大棋局”" [ref=f21e56] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/zonghe/2026-04-25/doc-inhvsqpk2641864.shtml
+            - listitem [ref=f21e57]:
+              - generic [ref=f21e58]: "17"
+              - link "中美罗马会晤开始！" [ref=f21e59] [cursor=pointer]:
+                - /url: http://mil.news.sina.com.cn/2022-03-14/doc-imcwiwss6015701.shtml
+            - listitem [ref=f21e60]:
+              - generic [ref=f21e61]: "18"
+              - link "傅政华被“双开”" [ref=f21e62] [cursor=pointer]:
+                - /url: http://mil.news.sina.com.cn/2022-03-31/doc-imcwiwss9214180.shtml
+            - listitem [ref=f21e63]:
+              - generic [ref=f21e64]: "19"
+              - link "刚刚通报：上海358+4144！" [ref=f21e65] [cursor=pointer]:
+                - /url: http://mil.news.sina.com.cn/2022-04-01/doc-imcwiwss9300524.shtml
+            - listitem [ref=f21e66]:
+              - generic [ref=f21e67]: "20"
+              - link "女子在机场两次拒绝帮忙带行李，网友提醒：千万不能帮！" [ref=f21e68] [cursor=pointer]:
+                - /url: https://mil.news.sina.com.cn/2026-04-23/doc-inhvpcuu8495463.shtml
+    - generic [ref=e197]:
+      - paragraph [ref=e198]:
+        - link "新浪军事意见反馈留言板" [ref=e199] [cursor=pointer]:
+          - /url: https://comment4.news.sina.com.cn/comment/skin/feedback.html
+        - text: 欢迎批评指正
+      - paragraph [ref=e200]:
+        - link "新浪简介" [ref=e201] [cursor=pointer]:
+          - /url: https://corp.sina.com.cn/chn/
+        - text: "|"
+        - link "About Sina" [ref=e202] [cursor=pointer]:
+          - /url: https://corp.sina.com.cn/eng/
+        - text: "|"
+        - link "广告服务" [ref=e203] [cursor=pointer]:
+          - /url: https://ads.sina.com.cn/
+        - text: "|"
+        - link "联系我们" [ref=e204] [cursor=pointer]:
+          - /url: https://www.sina.com.cn/contactus.html
+        - text: "|"
+        - link "招聘信息" [ref=e205] [cursor=pointer]:
+          - /url: https://corp.sina.com.cn/chn/sina_job.html
+        - text: "|"
+        - link "网站律师" [ref=e206] [cursor=pointer]:
+          - /url: https://www.sina.com.cn/intro/lawfirm.shtml
+        - text: "|"
+        - link "SINA English" [ref=e207] [cursor=pointer]:
+          - /url: https://english.sina.com
+        - text: "|"
+        - link "会员注册" [ref=e208] [cursor=pointer]:
+          - /url: https://members.sina.com.cn/apply/
+        - text: "|"
+        - link "产品答疑" [ref=e209] [cursor=pointer]:
+          - /url: https://tech.sina.com.cn/focus/sinahelp.shtml
+      - paragraph [ref=e210]:
+        - text: Copyright © 1996-2018 SINA Corporation, All Rights Reserved
+        - text: 新浪公司
+        - link "版权所有" [ref=e211] [cursor=pointer]:
+          - /url: https://home.sina.com.cn/intro/copyright.shtml
+  - insertion

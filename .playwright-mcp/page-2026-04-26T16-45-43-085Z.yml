@@ -1,0 +1,353 @@
+- generic [ref=e4]:
+  - complementary [ref=e6]:
+    - generic [ref=e7]:
+      - menu [ref=e9]:
+        - menuitem "Dashboard" [ref=e10] [cursor=pointer]:
+          - link "Dashboard" [ref=e11]:
+            - /url: /dashboard
+            - generic [ref=e12]:
+              - img [ref=e13]
+              - text: Dashboard
+        - menuitem "Route" [ref=e15] [cursor=pointer]:
+          - link "Route" [ref=e16]:
+            - /url: /routes/list
+            - generic [ref=e17]:
+              - img [ref=e18]
+              - text: Route
+        - menuitem "Stream Route" [ref=e20] [cursor=pointer]:
+          - link "Stream Route" [ref=e251]:
+            - /url: /stream_routes/list
+            - generic [ref=e252]:
+              - img [ref=e253]
+              - text: Stream Route
+        - menuitem "Upstream" [ref=e24] [cursor=pointer]:
+          - link "Upstream" [ref=e25]:
+            - /url: /upstream/list
+            - generic [ref=e26]:
+              - img [ref=e27]
+              - text: Upstream
+        - menuitem "Service" [ref=e29] [cursor=pointer]:
+          - link "Service" [ref=e30]:
+            - /url: /service/list
+            - generic [ref=e31]:
+              - img [ref=e32]
+              - text: Service
+        - menuitem "Consumer" [ref=e34] [cursor=pointer]:
+          - link "Consumer" [ref=e35]:
+            - /url: /consumer/list
+            - generic [ref=e36]:
+              - img [ref=e37]
+              - text: Consumer
+        - menuitem "file-text Protocol Buffers" [ref=e39] [cursor=pointer]:
+          - link "file-text Protocol Buffers" [ref=e40]:
+            - /url: /proto/list
+            - generic [ref=e41]:
+              - img "file-text" [ref=e42]:
+                - img [ref=e43]
+              - text: Protocol Buffers
+        - menuitem "Plugin" [ref=e45] [cursor=pointer]:
+          - link "Plugin" [ref=e46]:
+            - /url: /plugin/list
+            - generic [ref=e47]:
+              - img [ref=e48]
+              - text: Plugin
+        - menuitem "SSL" [ref=e50] [cursor=pointer]:
+          - link "SSL" [ref=e51]:
+            - /url: /ssl/list
+            - generic [ref=e52]:
+              - img [ref=e53]
+              - text: SSL
+        - menuitem "info-circle System Info" [ref=e55] [cursor=pointer]:
+          - link "info-circle System Info" [ref=e56]:
+            - /url: /serverinfo
+            - generic [ref=e57]:
+              - img "info-circle" [ref=e58]:
+                - img [ref=e59]
+              - text: System Info
+      - menu [ref=e63]:
+        - menuitem "menu-fold" [ref=e64] [cursor=pointer]:
+          - img "menu-fold" [ref=e65]:
+            - img [ref=e66]
+  - generic [ref=e68]:
+    - generic [ref=e71]:
+      - generic [ref=e73] [cursor=pointer]:
+        - img "logo" [ref=e74]
+        - heading "APISIX Dashboard" [level=1] [ref=e75]
+      - generic [ref=e77]:
+        - link "question-circle" [ref=e79] [cursor=pointer]:
+          - /url: https://apisix.apache.org/docs/apisix/getting-started
+          - img "question-circle" [ref=e81]:
+            - img [ref=e82]
+        - generic [ref=e86] [cursor=pointer]:
+          - img "avatar" [ref=e88]
+          - generic: APISIX User
+        - img [ref=e92] [cursor=pointer]
+    - main [ref=e95]:
+      - generic [ref=e255]:
+        - generic "Create Stream Route" [ref=e260]
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - generic [ref=e268]: Base Information
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - generic "Description" [ref=e273]
+                - textbox "Description" [ref=e277]
+              - generic [ref=e278]:
+                - generic "Server Addr" [ref=e280]
+                - textbox "Server Addr" [ref=e284]:
+                  - /placeholder: e.g. 127.0.0.1
+              - generic [ref=e285]:
+                - generic "Server Port" [ref=e287]
+                - generic [ref=e291]:
+                  - generic [ref=e292]:
+                    - button "Increase Value" [ref=e293] [cursor=pointer]:
+                      - img "up" [ref=e294]:
+                        - img [ref=e295]
+                    - button "Decrease Value" [ref=e297] [cursor=pointer]:
+                      - img "down" [ref=e298]:
+                        - img [ref=e299]
+                  - spinbutton "Server Port" [ref=e302]
+              - generic [ref=e303]:
+                - generic "SNI" [ref=e305]
+                - textbox "SNI" [ref=e309]
+              - generic [ref=e310]:
+                - generic "Remote Addr" [ref=e312]
+                - textbox "Remote Addr" [ref=e316]:
+                  - /placeholder: e.g. 192.168.1.101
+          - generic [ref=e317]:
+            - generic [ref=e320]: Upstream
+            - generic [ref=e322]:
+              - generic [ref=e323]:
+                - generic "Upstream" [ref=e325]: "Upstream :"
+                - generic [ref=e329] [cursor=pointer]:
+                  - generic [ref=e330]:
+                    - combobox "Upstream :" [ref=e332]
+                    - generic "Custom" [ref=e333]
+                  - generic:
+                    - img:
+                      - img
+              - generic [ref=e334]:
+                - generic "Algorithm" [ref=e336]: "* Algorithm :"
+                - generic [ref=e340] [cursor=pointer]:
+                  - generic [ref=e341]:
+                    - combobox "* Algorithm :" [ref=e343]
+                    - generic "Round Robin" [ref=e344]
+                  - generic:
+                    - img:
+                      - img
+              - generic [ref=e345]:
+                - generic "Upstream Type" [ref=e347]: "* Upstream Type :"
+                - generic [ref=e351] [cursor=pointer]:
+                  - generic [ref=e352]:
+                    - combobox "* Upstream Type :" [ref=e354]
+                    - generic "Node" [ref=e355]
+                  - generic:
+                    - img:
+                      - img
+              - generic [ref=e356]:
+                - generic "Targets" [ref=e358]: "Targets :"
+                - generic [ref=e362]:
+                  - generic [ref=e364]:
+                    - generic "Host" [ref=e366]: "* Host :"
+                    - textbox "* Host :" [ref=e370]:
+                      - /placeholder: Hostname or IP
+                  - generic [ref=e372]:
+                    - generic "Port" [ref=e374]: "Port :"
+                    - generic [ref=e378]:
+                      - generic [ref=e379]:
+                        - button "Increase Value" [ref=e380] [cursor=pointer]:
+                          - img "up" [ref=e381]:
+                            - img [ref=e382]
+                        - button "Decrease Value" [ref=e384] [cursor=pointer]:
+                          - img "down" [ref=e385]:
+                            - img [ref=e386]
+                      - spinbutton "Port :" [ref=e389]
+                  - generic [ref=e391]:
+                    - generic "Weight" [ref=e393]: "* Weight :"
+                    - generic [ref=e397]:
+                      - generic [ref=e398]:
+                        - button "Increase Value" [ref=e399] [cursor=pointer]:
+                          - img "up" [ref=e400]:
+                            - img [ref=e401]
+                        - button "Decrease Value" [ref=e403] [cursor=pointer]:
+                          - img "down" [ref=e404]:
+                            - img [ref=e405]
+                      - spinbutton "* Weight :" [ref=e408]: "1"
+                  - img "minus-circle" [ref=e410] [cursor=pointer]:
+                    - img [ref=e411]
+              - button "plus Add" [ref=e418] [cursor=pointer]:
+                - img "plus" [ref=e419]:
+                  - img [ref=e420]
+                - generic [ref=e423]: Add
+              - generic [ref=e424]:
+                - generic "Hostname" [ref=e426]: "Hostname :"
+                - generic [ref=e430] [cursor=pointer]:
+                  - generic [ref=e431]:
+                    - combobox "Hostname :" [ref=e433]
+                    - generic "Keep the same Host from client request" [ref=e434]
+                  - generic:
+                    - img:
+                      - img
+              - generic [ref=e435]:
+                - generic "Retries" [ref=e437]:
+                  - text: Retries
+                  - img "question-circle" [ref=e438]:
+                    - img [ref=e439]
+                  - text: ":"
+                - generic [ref=e445]:
+                  - generic [ref=e446]:
+                    - button "Increase Value" [ref=e447] [cursor=pointer]:
+                      - img "up" [ref=e448]:
+                        - img [ref=e449]
+                    - button "Decrease Value" [ref=e451] [cursor=pointer]:
+                      - img "down" [ref=e452]:
+                        - img [ref=e453]
+                  - spinbutton "Retries question-circle :" [ref=e456]
+              - generic [ref=e457]:
+                - generic "Retry Timeout" [ref=e459]:
+                  - text: Retry Timeout
+                  - img "question-circle" [ref=e460]:
+                    - img [ref=e461]
+                  - text: ":"
+                - generic [ref=e467]:
+                  - generic [ref=e468]:
+                    - button "Increase Value" [ref=e469] [cursor=pointer]:
+                      - img "up" [ref=e470]:
+                        - img [ref=e471]
+                    - button "Decrease Value" [ref=e473] [cursor=pointer]:
+                      - img "down" [ref=e474]:
+                        - img [ref=e475]
+                  - spinbutton "Retry Timeout question-circle :" [ref=e478]
+              - generic [ref=e479]:
+                - generic "Scheme" [ref=e481]: "* Scheme :"
+                - generic [ref=e485] [cursor=pointer]:
+                  - generic [ref=e486]:
+                    - combobox "* Scheme :" [ref=e488]
+                    - generic "HTTP" [ref=e489]
+                  - generic:
+                    - img:
+                      - img
+              - generic [ref=e490]:
+                - generic "Connect Timeout" [ref=e492]:
+                  - text: "* Connect Timeout"
+                  - img "question-circle" [ref=e493]:
+                    - img [ref=e494]
+                  - text: ":"
+                - generic [ref=e499]:
+                  - generic [ref=e500]:
+                    - generic [ref=e501]:
+                      - button "Increase Value" [ref=e502] [cursor=pointer]:
+                        - img "up" [ref=e503]:
+                          - img [ref=e504]
+                      - button "Decrease Value" [ref=e506] [cursor=pointer]:
+                        - img "down" [ref=e507]:
+                          - img [ref=e508]
+                    - spinbutton [ref=e511]: "6"
+                  - text: s
+              - generic [ref=e512]:
+                - generic "Send Timeout" [ref=e514]:
+                  - text: "* Send Timeout"
+                  - img "question-circle" [ref=e515]:
+                    - img [ref=e516]
+                  - text: ":"
+                - generic [ref=e521]:
+                  - generic [ref=e522]:
+                    - generic [ref=e523]:
+                      - button "Increase Value" [ref=e524] [cursor=pointer]:
+                        - img "up" [ref=e525]:
+                          - img [ref=e526]
+                      - button "Decrease Value" [ref=e528] [cursor=pointer]:
+                        - img "down" [ref=e529]:
+                          - img [ref=e530]
+                    - spinbutton [ref=e533]: "6"
+                  - text: s
+              - generic [ref=e534]:
+                - generic "Read Timeout" [ref=e536]:
+                  - text: "* Read Timeout"
+                  - img "question-circle" [ref=e537]:
+                    - img [ref=e538]
+                  - text: ":"
+                - generic [ref=e543]:
+                  - generic [ref=e544]:
+                    - generic [ref=e545]:
+                      - button "Increase Value" [ref=e546] [cursor=pointer]:
+                        - img "up" [ref=e547]:
+                          - img [ref=e548]
+                      - button "Decrease Value" [ref=e550] [cursor=pointer]:
+                        - img "down" [ref=e551]:
+                          - img [ref=e552]
+                    - spinbutton [ref=e555]: "6"
+                  - text: s
+              - generic [ref=e556]:
+                - separator [ref=e557]:
+                  - generic [ref=e558]: Keepalive Pool
+                - generic [ref=e560]:
+                  - generic "Keepalive Pool" [ref=e562]:
+                    - text: Keepalive Pool
+                    - img "question-circle" [ref=e563]:
+                      - img [ref=e564]
+                    - text: ":"
+                  - generic [ref=e570]:
+                    - generic [ref=e572]:
+                      - generic "Size" [ref=e574]: "Size :"
+                      - generic [ref=e578]:
+                        - generic [ref=e579]:
+                          - button "Increase Value" [ref=e580] [cursor=pointer]:
+                            - img "up" [ref=e581]:
+                              - img [ref=e582]
+                          - button "Decrease Value" [ref=e584] [cursor=pointer]:
+                            - img "down" [ref=e585]:
+                              - img [ref=e586]
+                        - spinbutton "Size :" [ref=e589]: "320"
+                    - generic [ref=e591]:
+                      - generic "Idle Timeout" [ref=e593]: "Idle Timeout :"
+                      - generic [ref=e597]:
+                        - generic [ref=e598]:
+                          - button "Increase Value" [ref=e599] [cursor=pointer]:
+                            - img "up" [ref=e600]:
+                              - img [ref=e601]
+                          - button "Decrease Value" [ref=e603] [cursor=pointer]:
+                            - img "down" [ref=e604]:
+                              - img [ref=e605]
+                        - spinbutton "Idle Timeout :" [ref=e608]: "60"
+                    - generic [ref=e610]:
+                      - generic "Requests" [ref=e612]: "Requests :"
+                      - generic [ref=e616]:
+                        - generic [ref=e617]:
+                          - button "Increase Value" [ref=e618] [cursor=pointer]:
+                            - img "up" [ref=e619]:
+                              - img [ref=e620]
+                          - button "Decrease Value" [ref=e622] [cursor=pointer]:
+                            - img "down" [ref=e623]:
+                              - img [ref=e624]
+                        - spinbutton "Requests :" [ref=e627]: "1000"
+              - generic [ref=e628]:
+                - separator [ref=e629]:
+                  - generic [ref=e630]: Health Check
+                - generic [ref=e631]:
+                  - generic [ref=e632]:
+                    - generic "Active" [ref=e634]: "Active :"
+                    - switch "Active :" [ref=e638] [cursor=pointer]
+                  - separator [ref=e640]
+                  - generic [ref=e641]:
+                    - generic "Passive" [ref=e643]:
+                      - text: Passive
+                      - img "question-circle" [ref=e644]:
+                        - img [ref=e645]
+                      - text: ":"
+                    - switch "Passive question-circle :" [ref=e651] [cursor=pointer]
+          - generic [ref=e654]:
+            - button "Submit" [ref=e655] [cursor=pointer]:
+              - generic [ref=e656]: Submit
+            - button "Cancel" [ref=e657] [cursor=pointer]:
+              - generic [ref=e658]: Cancel
+    - generic [ref=e191]:
+      - link "github" [ref=e193] [cursor=pointer]:
+        - /url: https://github.com/apache/apisix
+        - img "github" [ref=e194]:
+          - img [ref=e195]
+      - generic [ref=e197]:
+        - text: Copyright
+        - img "copyright" [ref=e198]:
+          - img [ref=e199]
+        - text: 2026 Apache APISIX

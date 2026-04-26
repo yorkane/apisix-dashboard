@@ -1,0 +1,536 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - list [ref=e4]:
+        - listitem [ref=e5]:
+          - link "新浪首页" [ref=e6] [cursor=pointer]:
+            - /url: http://www.sina.com.cn/
+        - listitem [ref=e7]:
+          - link "新闻" [ref=e8] [cursor=pointer]:
+            - /url: http://news.sina.com.cn/
+        - listitem [ref=e9]:
+          - link "体育" [ref=e10] [cursor=pointer]:
+            - /url: http://sports.sina.com.cn/
+        - listitem [ref=e11]:
+          - link "财经" [ref=e12] [cursor=pointer]:
+            - /url: http://finance.sina.com.cn/
+        - listitem [ref=e13]:
+          - link "娱乐" [ref=e14] [cursor=pointer]:
+            - /url: http://ent.sina.com.cn/
+        - listitem [ref=e15]:
+          - link "科技" [ref=e16] [cursor=pointer]:
+            - /url: http://tech.sina.com.cn/
+        - listitem [ref=e17]:
+          - link "博客" [ref=e18] [cursor=pointer]:
+            - /url: http://blog.sina.com.cn/
+        - listitem [ref=e19]:
+          - link "图片" [ref=e20] [cursor=pointer]:
+            - /url: http://photo.sina.com.cn/
+        - listitem [ref=e21]:
+          - link "专栏" [ref=e22] [cursor=pointer]:
+            - /url: http://zhuanlan.sina.com.cn/
+        - listitem [ref=e23]:
+          - link "更多" [ref=e24] [cursor=pointer]:
+            - /url: "#"
+            - text: 更多
+      - link "移动客户端" [ref=e28] [cursor=pointer]:
+        - /url: "#"
+        - text: 移动客户端
+      - generic [ref=e30]:
+        - link "注册" [ref=e32] [cursor=pointer]:
+          - /url: https://login.sina.com.cn/signup/signup?entry=news
+        - link "登录" [ref=e35] [cursor=pointer]:
+          - /url: javascript:;
+          - img [ref=e37]
+          - generic [ref=e38]: 登录
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - insertion [ref=e42]:
+        - insertion [ref=e43]:
+          - iframe [ref=e44]:
+            - generic [active] [ref=f46e1]:
+              - link:
+                - /url: http://sax.sina.com.cn/click?type=7&t=UERQUzAwMDAwMDA0NjE1NA%3D%3D&url=http%3A%2F%2Fwww.sina.com.cn%2F%23a-register&sign=a70e1db1ea57de4f&id=10&pdps=PDPS000000055137&csits=1777221118537
+      - generic [ref=e45]:
+        - img "新浪新闻客户端" [ref=e47]
+        - img "新浪新闻客户端" [ref=e49]
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - heading [level=1] [ref=e52]
+        - generic [ref=e53]: 看点秒拍>正文
+      - generic [ref=e54]:
+        - generic [ref=e55] [cursor=pointer]:
+          - img "新浪新闻客户端" [ref=e56]
+          - generic [ref=e57]: 新浪新闻客户端
+        - generic [ref=e58] [cursor=pointer]:
+          - img "新浪新闻公众号" [ref=e59]
+          - generic [ref=e60]: 新浪新闻公众号
+        - generic [ref=e61] [cursor=pointer]:
+          - img "新浪新闻视频号" [ref=e62]
+          - generic [ref=e63]: 新浪新闻视频号
+        - generic [ref=e64] [cursor=pointer]:
+          - img "新浪新闻抖音" [ref=e65]
+          - generic [ref=e66]: 新浪新闻抖音
+        - generic [ref=e67] [cursor=pointer]:
+          - img "新浪新闻快手" [ref=e68]
+          - generic [ref=e69]: 新浪新闻快手
+        - generic [ref=e70] [cursor=pointer]:
+          - img "新浪新闻小红书" [ref=e71]
+          - generic [ref=e72]: 新浪新闻小红书
+        - generic [ref=e73] [cursor=pointer]:
+          - img "新浪新闻B站" [ref=e74]
+          - generic [ref=e75]: 新浪新闻B站
+        - generic [ref=e76] [cursor=pointer]:
+          - img "热搜时代小宇宙" [ref=e77]
+          - generic [ref=e78]: 热搜时代小宇宙
+      - generic [ref=e80]:
+        - option "新闻" [selected]
+        - option "图片"
+        - option "视频"
+        - generic [ref=e81]:
+          - textbox [ref=e82]: 请输入关键词
+          - button "Submit" [ref=e83] [cursor=pointer]
+        - generic [ref=e86] [cursor=pointer]: 新闻
+    - heading "印度国家安全卫队训练催泪瓦斯耐受度" [level=1] [ref=e88]
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - text: 2026年04月26日 15:47
+        - link "新浪网" [ref=e93] [cursor=pointer]:
+          - /url: http://www.sina.com.cn
+        - generic [ref=e94]:
+          - text: 作者
+          - generic [ref=e95]:
+            - img "avatar" [ref=e96]
+            - img [ref=e97]
+          - link "新浪军事" [ref=e98] [cursor=pointer]:
+            - /url: http://k.sina.com.cn/mediaDocList.d.html?uid=1499104401
+          - text: 新浪军事频道官方账号
+      - generic [ref=e99]:
+        - link "举报" [ref=e101] [cursor=pointer]:
+          - /url: //news.sina.com.cn/blank/report_news.shtml?docId=nhvvkkk8574551
+        - link "缩小字体" [ref=e103] [cursor=pointer]:
+          - /url: javascript:;
+        - link "放大字体" [ref=e105] [cursor=pointer]:
+          - /url: javascript:;
+        - link "收藏" [ref=e107] [cursor=pointer]:
+          - /url: javascript:;
+        - link "微博" [ref=e109] [cursor=pointer]:
+          - /url: http://service.weibo.com/share/share.php?url=https%3A%2F%2Fk.sina.com.cn%2Farticle_1499104401_m595a84910330315jg.html&title=%E5%8D%B0%E5%BA%A6%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%E5%8D%AB%E9%98%9F%E8%AE%AD%E7%BB%83%E5%82%AC%E6%B3%AA%E7%93%A6%E6%96%AF%E8%80%90%E5%8F%97%E5%BA%A6&pic=
+        - link "微信" [ref=e111] [cursor=pointer]:
+          - /url: javascript:;
+        - link "分享" [ref=e113] [cursor=pointer]:
+          - /url: javascript:;
+        - link "2" [ref=e114] [cursor=pointer]:
+          - /url: javascript:;
+          - text: "2"
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - insertion [ref=e119]:
+          - insertion [ref=e120]:
+            - iframe [ref=e121]:
+              
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - img "印度国家安全卫队训练催泪瓦斯耐受度" [ref=e124]
+            - generic [ref=e125]: 印度国家安全卫队训练催泪瓦斯耐受度
+          - text: 【#印度国家安全卫队训练催泪瓦斯耐受度#】隔着屏幕都能感到窒息！印度国家安全卫队人员不戴面罩，在密闭空间训练催泪瓦斯耐受性。
+          - generic [ref=e126]: 特别声明：以上文章内容仅代表作者本人观点，不代表新浪网观点或立场。如有关于作品内容、版权或其它问题请于作品发表后的30日内与新浪网联系。
+          - insertion [ref=e128]:
+            - insertion [ref=e129]:
+              - iframe [ref=e130]:
+                
+        - generic [ref=e132]:
+          - heading [level=2]
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - link "赛博对话" [ref=e136] [cursor=pointer]:
+              - /url: https://weibo.com/u/5893229038
+              - img "赛博对话" [ref=e137]
+            - link "赛博对话" [ref=e139] [cursor=pointer]:
+              - /url: https://weibo.com/u/5893229038
+          - generic [ref=e140]:
+            - link "热搜时代" [ref=e141] [cursor=pointer]:
+              - /url: https://www.xiaoyuzhoufm.com/podcast/67c01fbc657dae09d80ed3e8
+              - img "热搜时代" [ref=e142]
+            - link "热搜时代" [ref=e144] [cursor=pointer]:
+              - /url: https://www.xiaoyuzhoufm.com/podcast/67c01fbc657dae09d80ed3e8
+          - generic [ref=e145]:
+            - link "一天零一页" [ref=e146] [cursor=pointer]:
+              - /url: https://weibo.com/u/1653545015
+              - img "一天零一页" [ref=e147]
+            - link "一天零一页" [ref=e149] [cursor=pointer]:
+              - /url: https://weibo.com/u/1653545015
+          - generic [ref=e150]:
+            - link "无双" [ref=e151] [cursor=pointer]:
+              - /url: https://weibo.com/u/3231920057
+              - img "无双" [ref=e152]
+            - link "无双" [ref=e154] [cursor=pointer]:
+              - /url: https://weibo.com/u/3231920057
+          - generic [ref=e155]:
+            - link "热浪之外" [ref=e156] [cursor=pointer]:
+              - /url: https://weibo.com/u/6979546667
+              - img "热浪之外" [ref=e157]
+            - link "热浪之外" [ref=e159] [cursor=pointer]:
+              - /url: https://weibo.com/u/6979546667
+        - insertion [ref=e161]:
+          - insertion [ref=e162]:
+            - iframe [ref=e163]:
+              - generic [ref=f47e2]: 广告
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - text: "关键字 :"
+            - link "印度" [ref=e166] [cursor=pointer]:
+              - /url: https://tags.sina.com.cn/印度
+            - link "催泪瓦斯" [ref=e167] [cursor=pointer]:
+              - /url: https://tags.sina.com.cn/催泪瓦斯
+            - link "窒息" [ref=e168] [cursor=pointer]:
+              - /url: https://tags.sina.com.cn/窒息
+          - text: 来自于：北京
+          - link "权利保护声明页/Notice to Right Holders" [ref=e170] [cursor=pointer]:
+            - /url: http://mp.sina.com.cn/faq/index?vt=4#/Notice/Right
+        - insertion [ref=e172]:
+          - insertion [ref=e173]:
+            - iframe [ref=e174]:
+              
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - emphasis [ref=e180]:
+                  - link "2" [ref=e181] [cursor=pointer]:
+                    - /url: https://comment5.news.sina.com.cn/comment/skin/default.html?channel=mp&newsid=1499104401-m595a84910330315jg
+                - text: 条评论|
+                - emphasis [ref=e182]:
+                  - link "2" [ref=e183] [cursor=pointer]:
+                    - /url: https://comment5.news.sina.com.cn/comment/skin/default.html?channel=mp&newsid=1499104401-m595a84910330315jg
+                - text: 人参与
+              - generic [ref=e184]: 网友评论
+            - generic [ref=e185]:
+              - textbox "我有话要说..." [ref=e188]
+              - link [ref=e190] [cursor=pointer]:
+                - /url: https://weibo.com/
+                - img [ref=e191]
+            - generic [ref=e193]:
+              - generic [ref=e194]:
+                - link "登录" [ref=e195] [cursor=pointer]:
+                  - /url: javascript:;
+                - text: "|"
+                - link "注册" [ref=e196] [cursor=pointer]:
+                  - /url: https://login.sina.com.cn/signup/signup.php
+              - link "发布" [ref=e197]:
+                - /url: javascript:;
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - generic [ref=e201]: 最热评论
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - link "染过" [ref=e205] [cursor=pointer]:
+                    - /url: https://weibo.com/u/2745832107
+                    - img [ref=e206]
+                  - generic [ref=e207]:
+                    - generic [ref=e208]:
+                      - link "染过" [ref=e211] [cursor=pointer]:
+                        - /url: https://weibo.com/u/2745832107
+                      - text: 辽宁沈阳
+                    - generic [ref=e212]: 蠢到底了。
+                    - generic [ref=e213]:
+                      - text: 4月26日16:06
+                      - generic [ref=e214]:
+                        - link "赞" [ref=e215] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e216]:
+                            - text: 赞
+                            - emphasis
+                        - link "回复" [ref=e217] [cursor=pointer]:
+                          - /url: javascript:;
+                - generic [ref=e218]:
+                  - link "用户6843084700" [ref=e220] [cursor=pointer]:
+                    - /url: https://weibo.com/u/6843084700
+                    - img [ref=e221]
+                  - generic [ref=e222]:
+                    - generic [ref=e223]:
+                      - link "用户6843084700" [ref=e226] [cursor=pointer]:
+                        - /url: https://weibo.com/u/6843084700
+                      - text: 河北邢台
+                    - generic [ref=e227]: 这不就是霸凌吗？
+                    - generic [ref=e228]:
+                      - text: 4月26日15:50
+                      - generic [ref=e229]:
+                        - link "赞" [ref=e230] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e231]:
+                            - text: 赞
+                            - emphasis
+                        - link "回复" [ref=e232] [cursor=pointer]:
+                          - /url: javascript:;
+            - generic [ref=e233]:
+              - generic [ref=e235]: 最新评论
+              - generic [ref=e237]:
+                - generic [ref=e238]:
+                  - link "染过" [ref=e240] [cursor=pointer]:
+                    - /url: https://weibo.com/u/2745832107
+                    - img [ref=e241]
+                  - generic [ref=e242]:
+                    - generic [ref=e243]:
+                      - link "染过" [ref=e246] [cursor=pointer]:
+                        - /url: https://weibo.com/u/2745832107
+                      - text: 辽宁沈阳
+                    - generic [ref=e247]: 蠢到底了。
+                    - generic [ref=e248]:
+                      - text: 4月26日16:06
+                      - generic [ref=e249]:
+                        - link "赞" [ref=e250] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e251]:
+                            - text: 赞
+                            - emphasis
+                        - link "回复" [ref=e252] [cursor=pointer]:
+                          - /url: javascript:;
+                - generic [ref=e253]:
+                  - link "用户6843084700" [ref=e255] [cursor=pointer]:
+                    - /url: https://weibo.com/u/6843084700
+                    - img [ref=e256]
+                  - generic [ref=e257]:
+                    - generic [ref=e258]:
+                      - link "用户6843084700" [ref=e261] [cursor=pointer]:
+                        - /url: https://weibo.com/u/6843084700
+                      - text: 河北邢台
+                    - generic [ref=e262]: 这不就是霸凌吗？
+                    - generic [ref=e263]:
+                      - text: 4月26日15:50
+                      - generic [ref=e264]:
+                        - link "赞" [ref=e265] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e266]:
+                            - text: 赞
+                            - emphasis
+                        - link "回复" [ref=e267] [cursor=pointer]:
+                          - /url: javascript:;
+              - link "查看全部2条评论 >" [ref=e269] [cursor=pointer]:
+                - /url: https://comment5.news.sina.com.cn/comment/skin/default.html?channel=mp&newsid=1499104401-m595a84910330315jg&group=0
+                - text: 查看全部
+                - emphasis [ref=e270]: "2"
+                - text: 条评论 >
+        - insertion [ref=e272]:
+          - insertion [ref=e273]:
+            - iframe [ref=e274]:
+              - generic [ref=f59e2]: 广告
+        - generic [ref=e275]:
+          - generic [ref=e277]:
+            - link "相关新闻" [ref=e278] [cursor=pointer]:
+              - /url: javascript:;
+              - text: 相关新闻
+            - link "投资热点尽在新浪财经APP>" [ref=e280] [cursor=pointer]:
+              - /url: https://finance.sina.com.cn/mobile/comfinanceweb.shtml?source=xwzxzhengwen01
+          - generic [ref=e284]: 加载中
+      - generic [ref=e286]:
+        - insertion [ref=e288]:
+          - insertion [ref=e289]:
+            - iframe [ref=e290]:
+              
+            - link:
+              - /url: http://sax.sina.com.cn/click?type=7&t=UERQUzAwMDAwMDA0NjE1NA%3D%3D&url=http%3A%2F%2Fwww.sina.com.cn%2F%23a-register&sign=a70e1db1ea57de4f&id=10&pdps=PDPS000000042133&csits=1777221119084
+        - generic [ref=e291]:
+          - generic:
+            - link "阅读排行榜" [ref=e292] [cursor=pointer]:
+              - /url: http://news.sina.com.cn/hotnews/
+              - text: 阅读排行榜
+            - link "评论排行榜" [ref=e294] [cursor=pointer]:
+              - /url: http://news.sina.com.cn/hotnews/
+              - text: 评论排行榜
+          - list [ref=e296]:
+            - listitem [ref=e297]:
+              - generic [ref=e299]: "01"
+              - link "一杯饮料浇灭香烟，为何点燃全网怒火？" [ref=e301] [cursor=pointer]:
+                - /url: https://news.sina.com.cn/c/2026-04-26/doc-inhvtwhz0635299.shtml
+            - listitem [ref=e302]:
+              - generic [ref=e304]: "02"
+              - link "晚宴枪击现场细节曝光：部长急撤、记者趴地，特朗普未伤将发..." [ref=e306] [cursor=pointer]:
+                - /url: https://news.sina.com.cn/w/2026-04-26/doc-inhvutnk1719185.shtml
+            - listitem [ref=e307]:
+              - generic [ref=e309]: "03"
+              - link "“五一”出境游，“南亚断崖式下滑，客人担心飞过去回不来”..." [ref=e311] [cursor=pointer]:
+                - /url: https://news.sina.com.cn/c/2026-04-26/doc-inhvtwhu2133386.shtml
+            - listitem [ref=e312]:
+              - generic [ref=e314]: "04"
+              - link "惊魂一夜！特朗普俯身撤离，鲁比奥趴到桌子底" [ref=e316] [cursor=pointer]:
+                - /url: https://news.sina.com.cn/w/2026-04-26/doc-inhvveam0062666.shtml
+            - listitem [ref=e317]:
+              - generic [ref=e319]: "05"
+              - link "特朗普被伊朗气坏了" [ref=e321] [cursor=pointer]:
+                - /url: https://news.sina.com.cn/w/2026-04-26/doc-inhvupen1811489.shtml
+        - insertion [ref=e323]:
+          - insertion [ref=e324]:
+            - iframe [ref=e325]:
+              
+        - insertion [ref=e327]:
+          - insertion [ref=e328]:
+            - iframe [ref=e329]:
+              
+        - generic [ref=e330]:
+          - generic [ref=e331]:
+            - heading "图片新闻" [level=3] [ref=e333]
+            - link [ref=e334] [cursor=pointer]:
+              - /url: http://photo.sina.com.cn/
+          - generic:
+            - generic [ref=e335]:
+              - generic [ref=e336]:
+                - link "南京：市民游客畅游玄武湖景区 南京：市民游客畅游玄武湖景区":
+                  - /url: https://photo.sina.cn/album_1_2841_620566.htm?ch=1
+                  - img "南京：市民游客畅游玄武湖景区" [ref=e338] [cursor=pointer]
+                  - generic [ref=e339] [cursor=pointer]: 南京：市民游客畅游玄武湖景区
+              - generic [ref=e340]:
+                - link "海南琼海：农民雨后抢收早稻 海南琼海：农民雨后抢收早稻":
+                  - /url: https://photo.sina.cn/album_1_2841_620567.htm?ch=1
+                  - img "海南琼海：农民雨后抢收早稻" [ref=e342] [cursor=pointer]
+                  - generic [ref=e343] [cursor=pointer]: 海南琼海：农民雨后抢收早稻
+            - generic [ref=e344]:
+              - generic [ref=e345]:
+                - link "北京：景山公园牡丹盛放 北京：景山公园牡丹盛放":
+                  - /url: https://photo.sina.cn/album_1_2841_620568.htm?ch=1
+                  - img "北京：景山公园牡丹盛放" [ref=e347] [cursor=pointer]
+                  - generic [ref=e348] [cursor=pointer]: 北京：景山公园牡丹盛放
+              - insertion [ref=e350]:
+                - insertion [ref=e351]:
+                  - link "广告" [ref=e352] [cursor=pointer]:
+                    - /url: http://saxn.sina.com.cn/click?type=bottom&t=RTU1ODA2NDlGNTdC&url=https%3A%2F%2Fso.sina.cn%2Fpalmnews%2Fweb-sinanews-app-download.d.html&sign=290d7f3fbde405c8
+                    - img "广告" [ref=e353]
+        - insertion [ref=e356]:
+          - insertion [ref=e357]:
+            - iframe [ref=e358]:
+              
+        - insertion [ref=e360]:
+          - insertion [ref=e361]:
+            - iframe [ref=e362]:
+              
+        - generic [ref=e363]:
+          - link "视频新闻" [ref=e364] [cursor=pointer]:
+            - /url: http://news.video.sina.com.cn/
+            - text: 视频新闻
+          - generic [ref=e366]:
+            - generic:
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - link "2026伦敦马拉松萨维1:59:30撞线，人类马拉松首破2小时 2026伦敦马拉松萨维1:59:30撞线，人类马拉松首破2小时":
+                    - /url: https://video.sina.com.cn/mini/?dataid=comos:nhvvzha8343814
+                    - img "2026伦敦马拉松萨维1:59:30撞线，人类马拉松首破2小时" [ref=e370] [cursor=pointer]
+                    - generic [ref=e372] [cursor=pointer]: 2026伦敦马拉松萨维1:59:30撞线，人类马拉松首破2小时
+                - generic [ref=e373]:
+                  - link "欠条十年不催不要过期失效 欠条十年不催不要过期失效":
+                    - /url: https://video.sina.com.cn/mini/?dataid=comos:nhvvzha8335608
+                    - img "欠条十年不催不要过期失效" [ref=e375] [cursor=pointer]
+                    - generic [ref=e377] [cursor=pointer]: 欠条十年不催不要过期失效
+              - generic [ref=e378]:
+                - generic [ref=e379]:
+                  - link "极目锐评|集体离职撕开东方甄选内部乱象 极目锐评|集体离职撕开东方甄选内部乱象":
+                    - /url: https://video.sina.com.cn/mini/?dataid=comos:nhvvzha8346357
+                    - img "极目锐评|集体离职撕开东方甄选内部乱象" [ref=e381] [cursor=pointer]
+                    - generic [ref=e383] [cursor=pointer]: 极目锐评|集体离职撕开东方甄选内部乱象
+                - generic [ref=e384]:
+                  - link "男子偷运51公斤盒饭入境澳门被查 男子偷运51公斤盒饭入境澳门被查":
+                    - /url: https://video.sina.com.cn/mini/?dataid=comos:nhvvzfu9544628
+                    - img "男子偷运51公斤盒饭入境澳门被查" [ref=e386] [cursor=pointer]
+                    - generic [ref=e388] [cursor=pointer]: 男子偷运51公斤盒饭入境澳门被查
+        - insertion [ref=e390]:
+          - insertion [ref=e391]:
+            - iframe [ref=e392]:
+              
+        - insertion [ref=e394]:
+          - insertion [ref=e395]:
+            - iframe [ref=e396]:
+              
+        - insertion [ref=e398]:
+          - insertion [ref=e399]:
+            - iframe [ref=e400]:
+              
+        - generic [ref=e401]:
+          - heading "新媒体实验室" [level=3] [ref=e404]
+          - generic [ref=e406]:
+            - list [ref=e407]:
+              - listitem [ref=e408]:
+                - link "朋友圈47%的内容在炫耀 朋友圈47%的内容在炫耀":
+                  - /url: https://news.sina.com.cn/zx/2020-10-15/doc-iiznezxr6122869.shtml
+                  - img "朋友圈47%的内容在炫耀" [ref=e410] [cursor=pointer]
+                  - generic [ref=e411] [cursor=pointer]: 朋友圈47%的内容在炫耀
+              - listitem [ref=e412]:
+                - link "近300起杀妻案如何判罚 近300起杀妻案如何判罚":
+                  - /url: https://news.sina.com.cn/c/2020-07-30/doc-iivhuipn5894776.shtml
+                  - img "近300起杀妻案如何判罚" [ref=e414] [cursor=pointer]
+                  - generic [ref=e415] [cursor=pointer]: 近300起杀妻案如何判罚
+              - listitem [ref=e416]:
+                - link "谈恋爱反降低生活质量？ 谈恋爱反降低生活质量？":
+                  - /url: https://news.sina.com.cn/s/2020-08-26/doc-iivhvpwy3205551.shtml
+                  - img "谈恋爱反降低生活质量？" [ref=e418] [cursor=pointer]
+                  - generic [ref=e419] [cursor=pointer]: 谈恋爱反降低生活质量？
+              - listitem [ref=e420]:
+                - link "全国最能吃的省市竟是它 全国最能吃的省市竟是它":
+                  - /url: https://news.sina.com.cn/c/2020-09-10/doc-iivhvpwy5962650.shtml
+                  - img "全国最能吃的省市竟是它" [ref=e422] [cursor=pointer]
+                  - generic [ref=e423] [cursor=pointer]: 全国最能吃的省市竟是它
+              - listitem [ref=e424]:
+                - link "朋友圈47%的内容在炫耀 朋友圈47%的内容在炫耀":
+                  - /url: https://news.sina.com.cn/zx/2020-10-15/doc-iiznezxr6122869.shtml
+                  - img "朋友圈47%的内容在炫耀" [ref=e426] [cursor=pointer]
+                  - generic [ref=e427] [cursor=pointer]: 朋友圈47%的内容在炫耀
+            - list:
+              - listitem
+              - listitem
+            - list [ref=e429]:
+              - listitem [ref=e430] [cursor=pointer]
+              - listitem [ref=e431] [cursor=pointer]
+              - listitem [ref=e432] [cursor=pointer]
+              - listitem [ref=e433] [cursor=pointer]
+        - insertion [ref=e435]:
+          - insertion [ref=e436]:
+            - iframe [ref=e437]:
+              
+        - list [ref=e439]:
+          - listitem [ref=e440]:
+            - link "联系我们" [ref=e441] [cursor=pointer]:
+              - /url: http://www.sina.com.cn/contactus.html
+            - text: "|"
+            - link "广告营销" [ref=e442] [cursor=pointer]:
+              - /url: https://marketing.hd.weibo.com/?fr=C003004_P001
+            - text: "|"
+            - link "通行证注册" [ref=e443] [cursor=pointer]:
+              - /url: http://login.sina.com.cn/signup/signup
+          - listitem [ref=e444]:
+            - link "产品答疑" [ref=e445] [cursor=pointer]:
+              - /url: http://help.sina.com.cn/
+            - text: "|"
+            - link "招聘信息" [ref=e446] [cursor=pointer]:
+              - /url: http://career.sina.com.cn/
+            - text: "|"
+            - link "网站律师" [ref=e447] [cursor=pointer]:
+              - /url: http://corp.sina.com.cn/lawfirm/sina.htm
+          - listitem [ref=e448]:
+            - link "SINA English" [ref=e449] [cursor=pointer]:
+              - /url: http://english.sina.com/
+        - paragraph [ref=e451]: 举报邮箱：jubao@vip.sina.com
+        - generic [ref=e452]:
+          - paragraph [ref=e453]: Copyright © 1996-2026 SINA Corporation
+          - paragraph [ref=e454]:
+            - text: All Rights Reserved 新浪公司
+            - link "版权所有" [ref=e455] [cursor=pointer]:
+              - /url: http://corp.sina.com.cn/chn/copyright.html
+        - insertion [ref=e457]:
+          - insertion [ref=e458]:
+            - iframe [ref=e459]:
+              
+        - generic [ref=e460]:
+          - heading [level=3]
+        - insertion [ref=e463]:
+          - insertion [ref=e464]:
+            - iframe [ref=e465]:
+              
+  - generic [ref=e466]:
+    - link "新浪首页" [ref=e467] [cursor=pointer]:
+      - /url: https://www.sina.com.cn/
+      - text: 新浪首页
+    - link "相关新闻" [ref=e469] [cursor=pointer]:
+      - /url: javascript:;
+  - insertion
+  - insertion
+  - insertion
+  - insertion
+  - iframe

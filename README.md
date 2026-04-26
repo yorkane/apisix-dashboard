@@ -19,6 +19,10 @@ The Dashboard is the control plane and performs all parameter checks; Apache API
 1. The `api` directory is used to store the `Manager API` source codes, which is used to manage `etcd` and provide APIs to the frontend interface.
 2. The `web` directory is used to store the frontend source codes.
 
+## Features
+
+- **Stream Proxy Route Management**: Integrated full CRUD support for Layer 4 (TCP/UDP) routing. Includes internationalization (Chinese/English) and robust default handlers for upstream schemes (defaulting to TCP) to seamlessly match routing behavior for stream ports (e.g., 60001-60009).
+
 ## Build and Deployment
 
 This project uses Github Actions to automatically build and push the Docker image to GHCR upon commit to the master branch.

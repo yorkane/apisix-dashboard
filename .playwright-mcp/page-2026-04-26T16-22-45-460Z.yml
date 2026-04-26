@@ -1,0 +1,116 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - link "新浪搜索":
+        - /url: /
+        - img "新浪搜索"
+      - generic [ref=e11] [cursor=pointer]:
+        - combobox "请输入搜索关键词" [ref=e12]: 印度
+        - button "搜 索" [ref=e14]:
+          - generic [ref=e15]: 搜 索
+      - link "新浪首页" [ref=e17] [cursor=pointer]:
+        - /url: https://www.sina.com.cn
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]:
+            - radio "综合" [checked]
+          - generic [ref=e23]: 综合
+        - generic [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]:
+            - radio "新闻"
+          - generic [ref=e26]: 新闻
+        - generic [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]:
+            - radio "图集"
+          - generic [ref=e29]: 图集
+        - generic [ref=e30] [cursor=pointer]:
+          - generic [ref=e31]:
+            - radio "视频"
+          - generic [ref=e32]: 视频
+      - generic [ref=e33]:
+        - generic [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]:
+            - radio "相关度" [checked]
+          - generic [ref=e36]: 相关度
+        - generic [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]:
+            - radio "时间"
+          - generic [ref=e39]: 时间
+      - generic [ref=e40] [cursor=pointer]:
+        - img "setting" [ref=e41]:
+          - img [ref=e42]
+        - text: 高级搜索
+  - generic [ref=e54]:
+    - generic [ref=e55]:
+      - link "广告营销" [ref=e56] [cursor=pointer]:
+        - /url: https://marketing.hd.weibo.com/?fr=C003004_P001
+      - text: ┊
+      - link "联系我们" [ref=e57] [cursor=pointer]:
+        - /url: https://www.sina.com.cn/contactus.html
+      - text: ┊
+      - link "诚聘英才" [ref=e58] [cursor=pointer]:
+        - /url: https://career.sina.com.cn/
+      - text: ┊
+      - link "SINA English" [ref=e59] [cursor=pointer]:
+        - /url: https://english.sina.com
+      - text: ┊
+      - link "注册" [ref=e60] [cursor=pointer]:
+        - /url: https://login.sina.com.cn/signup/signup.php
+      - text: ┊
+      - link "产品答疑" [ref=e61] [cursor=pointer]:
+        - /url: https://help.sina.com.cn/
+    - paragraph [ref=e62]: Copyright ©1996-2026 SINA Corporation, All Rights Reserved
+    - generic [ref=e63]:
+      - link "中国互联网协会" [ref=e64] [cursor=pointer]:
+        - /url: https://www.itrust.org.cn
+        - img "中国互联网协会" [ref=e65]
+      - link "中国互联网举报中心" [ref=e66] [cursor=pointer]:
+        - /url: https://www.12377.cn/
+        - img "中国互联网举报中心" [ref=e67]
+      - link "北京网络行业协会" [ref=e68] [cursor=pointer]:
+        - /url: http://www.bnia.cn/
+        - img "北京网络行业协会" [ref=e69]
+      - link "网络110报警服务" [ref=e70] [cursor=pointer]:
+        - /url: http://www.cyberpolice.cn/
+        - img "网络110报警服务" [ref=e71]
+      - link "可信网站" [ref=e72] [cursor=pointer]:
+        - /url: https://ss.knet.cn/verifyseal.dll?sn=2010091500100002145&ct=df&a=1&pa=0.14296675658609825
+        - img "可信网站" [ref=e73]
+      - link "北京文化市场举报热线" [ref=e74] [cursor=pointer]:
+        - /url: http://whzf.beijing.gov.cn/
+        - img "北京文化市场举报热线" [ref=e75]
+      - link "北京互联网举报中心" [ref=e76] [cursor=pointer]:
+        - /url: http://www.bjjubao.org/
+        - img "北京互联网举报中心" [ref=e77]
+      - link "信用中国" [ref=e78] [cursor=pointer]:
+        - /url: http://www.creditchina.gov.cn/
+        - img "信用中国" [ref=e79]
+    - paragraph [ref=e80]:
+      - link "隐私保护" [ref=e81] [cursor=pointer]:
+        - /url: https://corp.sina.com.cn/chn/sina_priv.html
+      - text: 新浪公司
+      - link "版权所有" [ref=e82] [cursor=pointer]:
+        - /url: https://www.sina.com.cn/intro/copyright.shtml
+      - link "京ICP证000007" [ref=e83] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn/
+    - paragraph [ref=e84]:
+      - text: 违法和不良信息举报电话：4001102288 举报邮箱：
+      - link "jubao@vip.sina.com" [ref=e85] [cursor=pointer]:
+        - /url: mailto:jubao@vip.sina.com
+    - paragraph [ref=e86]:
+      - text: 京网文﹝2023﹞4325-128号
+      - link "互联网新闻信息服务许可编号：11220180001" [ref=e87] [cursor=pointer]:
+        - /url: https://n3.sinaimg.cn/default/cf7470f9/20241009/XinLangHuLianHuLianWangXinWenXinXiXuKeZheng20240404-20270403_ChunTuBan.pdf
+      - link "北京新浪互联信息服务有限公司" [ref=e88] [cursor=pointer]:
+        - /url: https://www.sina.com.cn/license/business_index.shtml
+    - paragraph [ref=e89]: (京)网药械信息备字（2024）第 00220 号 京教研[2002]7号 电信业务审批[2001]字第379号
+    - paragraph [ref=e90]:
+      - text: 增值电信业务经营许可证B1.B2-20090108 增值电信业务经营许可证：
+      - link "京ICP证000007号" [ref=e91] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn/
+    - paragraph [ref=e92]:
+      - text: 广播电视节目制作经营许可证（京）字第00828号 甲测资字11110398
+      - link "京公网安备11000002000016号" [ref=e93] [cursor=pointer]:
+        - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000016
+    - paragraph [ref=e94]: 互联网宗教信息服务许可证：京（2025）0000015

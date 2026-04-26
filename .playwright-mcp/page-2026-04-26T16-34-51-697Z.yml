@@ -1,0 +1,44 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - link "github" [ref=e6] [cursor=pointer]:
+      - /url: https://apisix.apache.org
+      - img "github" [ref=e7]:
+        - img [ref=e8]
+    - img [ref=e12] [cursor=pointer]
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - link "logo" [ref=e18] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=e19]
+      - generic [ref=e20]:
+        - text: Apache APISIX Dashboard
+        - text: Cloud-Native Microservices API Gateway
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - tablist [ref=e23]:
+          - tab "Username & Password" [selected] [ref=e27] [cursor=pointer]
+        - tabpanel "Username & Password" [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e36]:
+              - img "user" [ref=e38]:
+                - img [ref=e39]
+              - textbox "Username" [ref=e41]
+            - generic [ref=e46]:
+              - img "lock" [ref=e48]:
+                - img [ref=e49]
+              - textbox "Password" [ref=e53]
+            - link "How to update username/password?" [ref=e58] [cursor=pointer]:
+              - /url: https://github.com/apache/apisix-dashboard/blob/master/api/conf/conf.yaml#L70-L75
+      - button "Login" [ref=e59] [cursor=pointer]:
+        - generic [ref=e60]: Login
+  - contentinfo [ref=e61]:
+    - generic [ref=e62]:
+      - link "github" [ref=e64] [cursor=pointer]:
+        - /url: https://github.com/apache/apisix
+        - img "github" [ref=e65]:
+          - img [ref=e66]
+      - generic [ref=e68]:
+        - text: Copyright
+        - img "copyright" [ref=e69]:
+          - img [ref=e70]
+        - text: 2026 Apache APISIX
